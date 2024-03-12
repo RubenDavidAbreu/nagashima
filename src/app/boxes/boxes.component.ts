@@ -8,8 +8,11 @@ import { CamionService } from '../camion.service';
 })
 export class BoxesComponent implements OnInit{
   constructor(public camions : CamionService) {}
+
+  boxes:any[]=[];
+
   ngOnInit(): void {
-      this.camions.camion().subscribe((data)=>{console.log(data)});
+      this.camions.camion().subscribe((data)=>{this.boxes=data});
 
   }    
 }
