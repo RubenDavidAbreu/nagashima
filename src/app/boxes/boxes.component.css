@@ -1,0 +1,22 @@
+/* Boxes */
+.boxesContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.boxContainer {
+    width: 45%;
+}
+
+.boxName {
+    text-align: center;
+}
+
+.boxImg {
+    width: 100%;
+    margin: auto;
+    border: 0.2vw solid rgb(147, 147, 147);
+}
