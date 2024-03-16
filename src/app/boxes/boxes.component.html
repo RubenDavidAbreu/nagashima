@@ -1,11 +1,61 @@
 <div class="bornContainer">
-    <div class="boxesContainer">
-        <div class="boxContainer" *ngFor="let box of boxes" >
+    <!-- L'affichage des boxes -->
+    <div id="boxesContainer">
+        <div *ngFor="let box of boxes" class="boxContainer {{getFlavorClasses(box)}}" >
             <h2 class="boxName">{{box.name}}</h2>
-            <img class="boxImg" src="../../assets/img/{{box.image}}" alt="">
+            <img class="boxImg lightGreyBorder" src="../../assets/img/{{box.image}}" alt="">
             <div class="boxContent">
-                <div>{{box.price}}</div>
-                <div>bouton</div>
+                <div class="fRow jcSb">
+                    <div>{{box.price}} €</div>
+                    <div class="buttonAddContainer lightGreyBorder">
+                        <div class="buttonAdd">-</div>
+                        <div>nb</div>
+                        <div class="buttonAdd">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu filtrage -->
+    <div id="filterContainer" class="hideFilter greyBorder">
+        <div class="relative">
+            <img class="cross" src="../../assets/img/menuBurger.png" alt="menu burger" onclick="toggleClasses('filterContainer', 'hideFilter', 'showFilter')"/>
+            <div class="fRow filterRow crossMarg">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('boxContainer')" checked>
+                <div class="filterName">Tous</div>
+            </div>
+            <div class="fRow filterRow">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('avocat')">
+                <div class="filterName">Avocat</div>
+            </div>
+            <div class="fRow filterRow">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('cheese')">
+                <div class="filterName">Cheese</div>
+            </div>
+            <div class="fRow filterRow">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('coriande')">
+                <div class="filterName">Coriande</div>
+            </div>
+            <div class="fRow filterRow">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('thon')">
+                <div class="filterName">Thon</div>
+            </div>
+            <div class="fRow filterRow">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('viande')">
+                <div class="filterName">Viande</div>
+            </div>
+            <div class="fRow filterRow">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('spicy')">
+                <div class="filterName">épicée</div>
+            </div>
+            <div class="fRow filterRow">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('crevette')">
+                <div class="filterName">Crevette</div>
+            </div>
+            <div class="fRow filterRow">
+                <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('seriole')">
+                <div class="filterName">seriole lalandi</div>
             </div>
         </div>
     </div>
