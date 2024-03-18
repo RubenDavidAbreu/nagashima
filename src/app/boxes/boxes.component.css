@@ -4,6 +4,8 @@
     background-color: white;
 }
 
+
+
 /* Boxes */
 #boxesContainer {
     display: flex;
@@ -12,26 +14,30 @@
     padding-top: 15vh;
     background-image: url('../../assets/img/texture-blanc.png');
     min-height: 100vh;
+
 }
 
 .boxContainer {
     width: 42%;
-    margin: 0 1.5%;
+    margin: 4% 1.5%;
 }
 
 .boxName {
     text-align: center;
     font-size: 4vw;
     margin: 0;
+    font-family: 'YujiBoku';
 }
 
 .boxImg {
     width: 100%;
     margin: auto;
+    border-radius: 0.9vw;
 }
 
 .buttonAdd {
     margin: 0 0.4vw;
+    cursor: pointer;
 }
 
 /* Filter */
@@ -44,6 +50,8 @@
     z-index: 10;
     background-color: rgb(221, 221, 221);
     transition-duration: 1000ms;
+    font-family: 'Alegreya';
+    font-size: 1.1em;
 }
 
 .showFilter {
@@ -58,4 +66,29 @@
 
 .filterRow {
     padding: 0.5vw;
+}
+
+.prix{
+    font-weight: 700;
+    font-size: 1.7vw;
+    font-family: 'Alegreya';
+}
+
+.buttonAddContainer{
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'YujiBoku';
+    src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../../assets/Fonts/Alegreya-VariableFont_wght.ttf');
+}
+
+.nbr{
+    font-family: 'YujiBoku';
+    font-size: 1.2em;
 }

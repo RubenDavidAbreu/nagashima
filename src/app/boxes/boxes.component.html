@@ -6,10 +6,10 @@
       <img class="boxImg lightGreyBorder" src="../../assets/img/{{box.image}}" alt="">
       <div class="boxContent">
         <div class="fRow jcSb">
-          <div>{{box.price}} €</div>
+          <div class="prix">{{box.price}} €</div>
           <div class="buttonAddContainer lightGreyBorder">
               <div class="buttonAdd" (click)="removeFromCommande(box)">-</div>
-              <div>{{getItemQuantity(box)}}</div>
+              <div class="nbr">{{getItemQuantity(box)}}</div>
               <div class="buttonAdd" (click)="addToCommande(box)">+</div>
           </div>
         </div>
@@ -20,7 +20,7 @@
   <!-- Menu filtrage -->
   <div id="filterContainer" class="hideFilter greyBorder">
     <div class="relative">
-      <img class="cross" src="../../assets/img/menuBurger.png" alt="menu burger" onclick="toggleClasses('filterContainer', 'hideFilter', 'showFilter')"/>
+      <img class="cross" src="../../assets/img/right-arrow.png" alt="menu burger" onclick="toggleClasses('filterContainer', 'hideFilter', 'showFilter')"/>
       <div class="fRow filterRow crossMarg">
         <input class="filterCheckbox" type="radio" name="flavor" onclick="showOnly('boxContainer')" checked>
         <div class="filterName">Tous</div>
