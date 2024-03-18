@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* position */
+.fRow {
+    display: flex;
+}
+
+.jcSb {
+    justify-content: space-between;
+}
+
+.relative {
+    position: relative;
+}
+
+/* Padding - Margin - Border */
+.lightGreyBorder {
+    border: 0.1vw solid rgb(155, 155, 155);
+}
+
+.greyBorder {
+    border: 0.1vw solid rgb(109, 109, 109);
+}
+
+/* Other */
+.cross {
+    position: absolute;
+    top: 0.5vw;
+    right: 0.5vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.crossMarg {
+    padding-top: 3vw !important;
+}
+
+.hidden {
+    display: none;
+}

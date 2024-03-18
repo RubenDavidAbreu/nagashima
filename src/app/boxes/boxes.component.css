@@ -1,0 +1,71 @@
+/* Global */
+.bornContainer {
+    margin: auto;
+    background-color: white;
+}
+
+/* Boxes */
+#boxesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 15vh;
+    background-image: url('../../assets/img/texture-blanc.png');
+    min-height: 100vh;
+}
+
+.boxContainer {
+    width: 42%;
+    margin: 0 1.5%;
+}
+
+.boxName {
+    text-align: center;
+    font-size: 4vw;
+    margin: 0;
+}
+
+.boxImg {
+    width: 100%;
+    margin: auto;
+}
+
+.buttonAddContainer {
+    display: flex;
+    border-radius: 0.5vw;
+    width: fit-content;
+}
+
+.buttonAddContainer > div {
+    padding: 0.4vw;
+}
+
+.buttonAdd {
+    margin: 0 0.4vw;
+}
+
+/* Filter */
+#filterContainer {
+    position: fixed;
+    top: 20vh;
+    left: 0;
+    overflow: hidden;
+    padding: 0.5vw;
+    z-index: 10;
+    background-color: rgb(221, 221, 221);
+    transition-duration: 1000ms;
+}
+
+.showFilter {
+    width: 8vw;
+    height: 25vw;
+}
+
+.hideFilter {
+    width: 2vw;
+    height: 2.5vw;
+}
+
+.filterRow {
+    padding: 0.5vw;
+}

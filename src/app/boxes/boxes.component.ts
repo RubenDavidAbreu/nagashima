@@ -1,16 +1,37 @@
 import { Component, OnInit } from '@angular/core';
 import { CamionService } from '../camion.service';
+import { CommandeService } from '../commande.service';
 
 @Component({
   selector: 'app-boxes',
   templateUrl: './boxes.component.html',
-  styleUrl: './boxes.component.css'
+  styleUrls: ['./boxes.component.css']
 })
-export class BoxesComponent implements OnInit{
-  constructor(public camions : CamionService) {}
+
+export class BoxesComponent implements OnInit {
+  constructor(public camions: CamionService, private commandeService: CommandeService) {}
+
+  boxes: any[] = [];
+
   ngOnInit(): void {
-      this.camions.camion().subscribe((data)=>{console.log(data)});
+    this.camions.camion().subscribe((data) => {
+      this.boxes = data;
+    });
+  }
 
-  }    
+  getFlavorClasses(box: any): string {
+    let flavorClasses = '';
+    for (let flavor of box.flavor) {
+      flavorClasses += `${flavor.name} `;
+    }
+    return flavorClasses.trim();
+  }
+
+  addToCommande(box: any) {
+    this.commandeService.addItem(box);
+  }
+
+  removeFromCommande(box: any) {
+    this.commandeService.removeItem(box);
+  }
 }
-
