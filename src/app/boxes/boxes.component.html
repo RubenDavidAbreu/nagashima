@@ -9,7 +9,7 @@
           <div>{{box.price}} €</div>
           <div class="buttonAddContainer lightGreyBorder">
               <div class="buttonAdd" (click)="removeFromCommande(box)">-</div>
-              <div>nb</div>
+              <div>{{getItemQuantity(box)}}</div>
               <div class="buttonAdd" (click)="addToCommande(box)">+</div>
           </div>
         </div>

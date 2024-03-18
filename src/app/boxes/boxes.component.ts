@@ -34,4 +34,8 @@ export class BoxesComponent implements OnInit {
   removeFromCommande(box: any) {
     this.commandeService.removeItem(box);
   }
+
+  getItemQuantity(box: any): number {
+    return this.commandeService.getItemQuantity(box);
+  }
 }

@@ -30,16 +30,6 @@
     margin: auto;
 }
 
-.buttonAddContainer {
-    display: flex;
-    border-radius: 0.5vw;
-    width: fit-content;
-}
-
-.buttonAddContainer > div {
-    padding: 0.4vw;
-}
-
 .buttonAdd {
     margin: 0 0.4vw;
 }

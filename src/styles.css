@@ -26,6 +26,17 @@ body {
     border: 0.1vw solid rgb(109, 109, 109);
 }
 
+/* Button */
+.buttonAddContainer {
+    display: flex;
+    border-radius: 0.5vw;
+    width: fit-content;
+}
+
+.buttonAddContainer > div {
+    padding: 0.4vw;
+}
+
 /* Other */
 .cross {
     position: absolute;
@@ -42,3 +53,5 @@ body {
 .hidden {
     display: none;
 }
+
+
