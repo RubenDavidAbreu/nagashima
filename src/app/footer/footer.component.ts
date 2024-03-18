@@ -47,6 +47,16 @@ export class Commande {
   getTotalQuantity(): number {
     return this.items.reduce((total, item) => total + item.quantity, 0);
   }
+
+  getItemQuantity(box: any): number {
+    const existingItem = this.items.find(item => item.box === box);
+    if (existingItem) {
+      return existingItem.quantity;
+    }
+    else {
+      return 0;
+    }
+  }
 }
 
 @Component({

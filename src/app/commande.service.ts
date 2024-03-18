@@ -24,4 +24,8 @@ export class CommandeService {
   getTotalQuantity(): number {
     return this.commande.getTotalQuantity();
   }
+
+  getItemQuantity(box: any): number {
+    return this.commande.getItemQuantity(box);
+  }
 }
