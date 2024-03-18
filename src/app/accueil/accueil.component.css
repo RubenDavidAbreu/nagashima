@@ -1,0 +1,51 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../../assets/Images/texture-papier-blanc 2.png");
+}
+
+.noDeco{
+    text-decoration: none;
+}
+
+#bg{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 35vh;
+    object-fit: cover;
+}
+
+#accueil{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'YujiBoku';
+}
+
+#nagashima{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    top: 50%;
+}
+
+.container{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+@font-face {
+    font-family: 'YujiBoku';
+    src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
+}
