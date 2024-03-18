@@ -37,6 +37,13 @@ body {
     padding: 0.4vw;
 }
 
+.whiteButton {
+    width: fit-content;
+    padding: 0.4vw;
+    border: 0.1vw solid rgb(155, 155, 155);
+    background-color: white;
+}
+
 /* Other */
 .cross {
     position: absolute;

@@ -1,6 +1,7 @@
 <!-- Commande -->
 <div id="footer">
   <div id="commandeContainer">
+    <!-- Boxes réserver -->
     <h2>Commande</h2>
     <div *ngFor="let item of commande.items" class="commandeItem fRow">
       <div>{{ item.box.name }}</div>
@@ -11,13 +12,31 @@
       </div>
       <div>{{ item.box.price }} € x {{ item.quantity }}</div>
     </div>
-    <div>Total: {{ commande.getTotalPrice() }} €</div>
+    <!-- Action -->
+    <div id="boxesActions" class="fRow">
+      <a routerLink="/panier" onclick="togglesClass('boxesActions', 'panierAction', 'hidden')"><div class="whiteButton">Payer</div></a>
+      <div class="whiteButton" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler</div>
+      <div>Total: {{ commande.getTotalPrice() }} €</div>
+    </div>
+    <div id="panierAction" class="whiteButton hidden" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler la commande</div>
   </div>
   
+  <!-- Message d'erreur -->
   <div id="tooMuchBoxes" class="error" [class.hidden]="!commande.tooManyBoxesReached">
     <div class="relative">
       <img class="cross" src="../../assets/img/croix.png" alt="croix" (click)="commande.notTooMany()">
-      Nombre maximum de boîtes atteint.
+        Vous ne pouvez pas mettre plus de 10 articles dans votre panier
+      <div class="errorButton blueBg" (click)="commande.notTooMany()"> Retour à ma commande </div>
+    </div>
+  </div>
+
+  <!-- Message d'erreur -->
+  <div id="cancelCommand" class="error hidden">
+    <div class="relative">
+      <img class="cross" src="../../assets/img/croix.png" alt="croix" onclick="toggleClasses('cancelCommand', 'hidden')">
+      Alerte !! <br>
+      Votre commande s’apprête a être supprimer .
+      <div class="errorButton redBg" (click)="commande.removeCommand()" onclick="toggleClasses('cancelCommand', 'hidden')"> Annuler ma commande </div>
     </div>
   </div>
 </div>

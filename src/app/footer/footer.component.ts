@@ -9,6 +9,10 @@ export class Commande {
   items: CommandeItem[] = [];
   tooManyBoxesReached: boolean = false;
 
+  getItems(): CommandeItem[] {
+    return this.items;
+  }
+
   addItem(box: any) {
     if (this.getTotalQuantity() < 10) {
       const existingItem = this.items.find(item => item.box === box);
@@ -20,10 +24,6 @@ export class Commande {
     } else {
       this.tooManyBoxesReached = true;
     }
-  }
-
-  notTooMany() {
-    this.tooManyBoxesReached = false;
   }
 
   removeItem(box: any) {
@@ -38,6 +38,10 @@ export class Commande {
         }
       }
     }
+  }
+
+  removeCommand() {
+    this.items = [];
   }
 
   getTotalPrice(): number {
@@ -56,6 +60,10 @@ export class Commande {
     else {
       return 0;
     }
+  }
+
+  notTooMany() {
+    this.tooManyBoxesReached = false;
   }
 }
 
