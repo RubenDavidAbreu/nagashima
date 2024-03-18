@@ -69,29 +69,3 @@
 .filterRow {
     padding: 0.5vw;
 }
-
-.cross {
-    position: absolute;
-    top: 0.5vw;
-    right: 0.5vw;
-    width: 1.5vw;
-    height: 1.5vw;
-}
-
-.crossMarg {
-    padding-top: 3vw;
-}
-
-.error {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 20%;
-    background-color: rgba(255, 0, 0, 0.226);
-}
-
-.hidden {
-    display: none;
-}
