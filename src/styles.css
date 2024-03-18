@@ -3,3 +3,55 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* position */
+.fRow {
+    display: flex;
+}
+
+.jcSb {
+    justify-content: space-between;
+}
+
+.relative {
+    position: relative;
+}
+
+/* Padding - Margin - Border */
+.lightGreyBorder {
+    border: 0.1vw solid rgb(155, 155, 155);
+}
+
+.greyBorder {
+    border: 0.1vw solid rgb(109, 109, 109);
+}
+
+/* Button */
+.buttonAddContainer {
+    display: flex;
+    border-radius: 0.5vw;
+    width: fit-content;
+}
+
+.buttonAddContainer > div {
+    padding: 0.4vw;
+}
+
+/* Other */
+.cross {
+    position: absolute;
+    top: 0.5vw;
+    right: 0.5vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.crossMarg {
+    padding-top: 3vw !important;
+}
+
+.hidden {
+    display: none;
+}
+
+

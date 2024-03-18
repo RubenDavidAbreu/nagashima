@@ -1,11 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BoxesComponent } from './boxes/boxes.component';
+import { AccueilComponent } from './accueil/accueil.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { DetailsComponent } from './details/details.component';
+import { PanierComponent } from './panier/panier.component';
 
-const routes: Routes = [{
-  path: '',
-  component: BoxesComponent,
-}];
+
+const routes: Routes = [
+  { path: 'boxes', component: BoxesComponent, },
+  { path: 'accueil', component: AccueilComponent, },
+  { path: 'header', component: HeaderComponent, },
+  { path: 'footer', component: FooterComponent, },
+  { path: 'details', component: DetailsComponent, },
+  { path: 'panier', component: PanierComponent, },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

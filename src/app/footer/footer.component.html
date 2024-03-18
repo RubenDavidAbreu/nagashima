@@ -1,0 +1,23 @@
+<!-- Commande -->
+<div id="footer">
+  <div id="commandeContainer">
+    <h2>Commande</h2>
+    <div *ngFor="let item of commande.items" class="commandeItem fRow">
+      <div>{{ item.box.name }}</div>
+      <div class="buttonAddContainer lightGreyBorder">
+        <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
+        <div>{{ item.quantity }}</div>
+        <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
+      </div>
+      <div>{{ item.box.price }} € x {{ item.quantity }}</div>
+    </div>
+    <div>Total: {{ commande.getTotalPrice() }} €</div>
+  </div>
+  
+  <div id="tooMuchBoxes" class="error" [class.hidden]="!commande.tooManyBoxesReached">
+    <div class="relative">
+      <img class="cross" src="../../assets/img/croix.png" alt="croix" (click)="commande.notTooMany()">
+      Nombre maximum de boîtes atteint.
+    </div>
+  </div>
+</div>
