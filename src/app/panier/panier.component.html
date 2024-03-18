@@ -1,1 +1,15 @@
-<p>panier works!</p>
+<div class="panier">
+    <!-- remplacer la div par une fleche en arriere -->
+    <a routerLink="/boxes" onclick="togglesClass('boxesActions', 'panierAction', 'hidden')"><div>retour arrière</div></a>
+    <h2>Commande</h2>
+    <div *ngFor="let item of getItems()">
+        {{ item.box.name }} {{ item.box.price }} x {{ item.box.quantity }}
+        <div class="buttonAddContainer lightGreyBorder">
+            <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
+            <div>{{getItemQuantity(item.box)}}</div>
+            <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
+        </div>
+    </div>
+    <div> Prix TCC : {{getTotalPrice()}}</div>
+    <div class="whiteButton">Payer</div>
+</div>

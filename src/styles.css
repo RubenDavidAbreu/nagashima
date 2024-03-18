@@ -27,6 +27,24 @@ body {
     border: 0.1vw solid rgb(109, 109, 109);
 }
 
+/* Button */
+.buttonAddContainer {
+    display: flex;
+    border-radius: 0.5vw;
+    width: fit-content;
+}
+
+.buttonAddContainer > div {
+    padding: 0.4vw;
+}
+
+.whiteButton {
+    width: fit-content;
+    padding: 0.4vw;
+    border: 0.1vw solid rgb(155, 155, 155);
+    background-color: white;
+}
+
 /* Other */
 .cross {
     position: absolute;
@@ -34,6 +52,8 @@ body {
     right: 0.5vw;
     width: 1.5vw;
     height: 1.5vw;
+
+    
 }
 
 .crossMarg {
@@ -43,3 +63,5 @@ body {
 .hidden {
     display: none;
 }
+
+
