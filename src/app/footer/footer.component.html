@@ -1,1 +1,17 @@
-<p>footer works!</p>
+<!-- Commande -->
+<div id="footer" class="hidden">
+  <div id="commandeContainer">
+    <h2>Commande</h2>
+    <div *ngFor="let item of commande.items" class="commandeItem">
+      <div>{{ item.box.name }} - {{ item.box.price }} € x {{ item.quantity }}</div>
+    </div>
+    <div>Total: {{ commande.getTotalPrice() }} €</div>
+  </div>
+  
+  <div id="tooMuchBoxes" class="error" [class.hidden]="!commande.tooManyBoxesReached">
+    <div class="relative">
+      <img class="cross" src="../../assets/img/croix.png" alt="croix" (click)="commande.notTooMany()">
+      Nombre maximum de boîtes atteint.
+    </div>
+  </div>
+</div>
