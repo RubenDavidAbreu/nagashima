@@ -50,6 +50,8 @@
     z-index: 10;
     background-color: rgb(221, 221, 221);
     transition-duration: 1000ms;
+    font-family: 'Alegreya';
+    font-size: 1.1em;
 }
 
 .showFilter {
@@ -84,4 +86,9 @@
 @font-face {
     font-family: 'Alegreya';
     src: url('../../assets/Fonts/Alegreya-VariableFont_wght.ttf');
+}
+
+.nbr{
+    font-family: 'YujiBoku';
+    font-size: 1.2em;
 }
