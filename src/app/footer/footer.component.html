@@ -36,9 +36,7 @@
       <img class="cross" src="../../assets/img/croix.png" alt="croix" onclick="toggleClasses('cancelCommand', 'hidden')">
       Alerte !! <br>
       Votre commande s’apprête a être supprimer .
-      <a routerLink="/boxes">
-        <div class="errorButton redBg" (click)="commande.removeCommand()" onclick="toggleClasses('cancelCommand', 'hidden')"> Annuler ma commande </div>
-      </a>
+      <div class="errorButton redBg" (click)="commande.removeCommand()" onclick="toggleClasses('cancelCommand', 'hidden')"> Annuler ma commande </div>
     </div>
   </div>
 </div>
