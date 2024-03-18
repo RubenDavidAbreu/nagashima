@@ -14,17 +14,16 @@ platformBrowserDynamic().bootstrapModule(AppModule)
         return;
     }
 
-    let isRotated: boolean = false; // Track whether the element is rotated
+    let isRotated: boolean = false; 
 
     cross.addEventListener('click', () => {
-        // Decide on the new duration here. You can set this dynamically as needed.
-        // For example, alternate between 1000ms and 2000ms
-        const newDuration = isRotated ? 1000 : 1200; // milliseconds
 
-        // Apply the new duration to the transition property
+        const newDuration = isRotated ? 1000 : 1200; 
+
+        
         cross.style.transition = `transform ${newDuration}ms`;
 
-        // Apply the rotation
+        
         if (isRotated) {
             cross.style.transform = 'rotate(0deg)';
         } else {
