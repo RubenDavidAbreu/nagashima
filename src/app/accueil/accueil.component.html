@@ -1,9 +1,15 @@
-<a class="noDeco" routerLink="/boxes" onclick="togglesClass('header', 'footer', 'hidden')">
-    <div class="container">
-        <img id="bg" src="../../assets/Images/Rectangle 18.png">
+<a class="noDeco" routerLink="/boxes" onclick="accueil()">
+    <div class="transition-fade" id="swup" class="container">
+        <img id="bgTop" src="../../assets/img/Rectangle 18.png">
         <div id="accueil">
             <p>Bienvenue</p>
-            <h1 id="nagashima">Nagashima</h1>
+            <div class="flex">
+                <hr id="ligne1">
+                <h1 id="nagashima">Nagashima</h1>
+                <hr id="ligne2">
+            </div>
         </div>
     </div>
+    <h1 class="noDeco" id="start">Appuyez pour commander</h1>
+    <img id="bgBottom" src="../../assets/img/Rectangle 18.png">
 </a>
