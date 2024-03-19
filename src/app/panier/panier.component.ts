@@ -22,11 +22,19 @@ export class PanierComponent {
     this.commandeService.removeItem(box);
   }
 
+  removeCommand() {
+    this.commandeService.removeCommand();
+  }
+
   getItemQuantity(box: any): number {
     return this.commandeService.getItemQuantity(box);
   }
 
   getTotalPrice(): number {
     return this.commandeService.getTotalPrice();
+  }
+  
+  get commande() {
+    return this.commandeService.commande;
   }
 }

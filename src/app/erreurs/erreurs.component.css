@@ -1,0 +1,27 @@
+
+.error {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 20%;
+    background-color: rgba(255, 0, 0, 0.226);
+}
+
+.errorButton {
+    margin: auto;
+    width: fit-content;
+    padding: 0.5vw;
+    border: 0.1vw solid black;
+    border-radius: 0.5vw;
+    color: white;
+}
+
+.blueBg {
+    background-color: #29618A;
+}
+
+.redBg {
+    background-color: #FF4F4F;
+}
