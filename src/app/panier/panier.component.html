@@ -1,3 +1,4 @@
+<app-header></app-header>
 <div class="panier">
     <!-- remplacer la div par une fleche en arriere -->
     <a routerLink="/boxes" onclick="togglesClass('boxesActions', 'panierAction', 'hidden')"><div>retour arrière</div></a>
@@ -13,3 +14,12 @@
     <div> Prix TCC : {{getTotalPrice()}}</div>
     <div class="whiteButton">Payer</div>
 </div>
+
+<!-- Commande -->
+<div id="footer">
+<div id="commandeContainer">
+    <!-- Action -->
+    <div id="panierAction" class="whiteButton" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler la commande</div>
+</div>
+</div>
+<app-erreurs></app-erreurs>
