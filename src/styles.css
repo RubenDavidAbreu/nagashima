@@ -65,3 +65,13 @@ body {
 }
 
 
+#footer{
+    background-image: url(assets/img/Rectangle\ 18.png);
+    position: fixed;
+    bottom: 0;
+    background-size: cover;
+    backdrop-filter: blur();
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 15%;
+}
