@@ -29,16 +29,14 @@ h1{
 #ligne1{
     position: relative;
     width: 35vw;
-    margin: 0;
-    margin-right: 3vw;
+    margin: 0 3vw 0 0;
     border: solid 0.3vh white;
 }
 
 #ligne2{
     position: relative;
     width: 35vw;
-    margin: 0;
-    margin-left: 3vw;
+    margin: 0 0 0 3vw;
     border: solid 0.3vh white;
 }
 

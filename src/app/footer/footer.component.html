@@ -1,24 +1,33 @@
 <!-- Commande -->
-<div id="footer">
-  <div id="commandeContainer">
-    <!-- Boxes réserver -->
-    <h2>Commande</h2>
-    <div *ngFor="let item of commande.items" class="commandeItem fRow">
-      <div>{{ item.box.name }}</div>
-      <div class="buttonAddContainer lightGreyBorder">
-        <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
-        <div>{{ item.quantity }}</div>
-        <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
+<div>
+  <div class="toutcommande">
+          <!-- Boxes réserver -->
+          <div *ngFor="let item of commande.items" class="commandeItem fRow">
+            <div>{{ item.box.name }}</div>
+            <div class="buttonAddContainer lightGreyBorder">
+              <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
+              <div>{{ item.quantity }}</div>
+              <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
+            </div>
+            <div>{{ item.box.price }} € x {{ item.quantity }}</div>
+          </div>
+  </div>
+  <div id="footer">
+    <div id="commandeContainer">
+
+      <!-- Action -->
+      <div id="boxesActions" class="fRow">
+        <a routerLink="/panier"><div class="whiteButton">Payer</div></a>
+        <div
+          class="whiteButton"
+          onclick="toggleClasses('cancelCommand', 'hidden')"
+        >
+          Annuler
+        </div>
+        <div>Total: {{ commande.getTotalPrice() }} €</div>
       </div>
-      <div>{{ item.box.price }} € x {{ item.quantity }}</div>
+      <!-- <div id="panierAction" class="whiteButton hidden" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler la commande</div> -->
     </div>
-    <!-- Action -->
-    <div id="boxesActions" class="fRow">
-      <a routerLink="/panier"><div class="whiteButton">Payer</div></a>
-      <div class="whiteButton" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler</div>
-      <div>Total: {{ commande.getTotalPrice() }} €</div>
-    </div>
-    <!-- <div id="panierAction" class="whiteButton hidden" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler la commande</div> -->
   </div>
 </div>
 <app-erreurs></app-erreurs>
