@@ -9,6 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailsComponent } from './details/details.component';
 import { PanierComponent } from './panier/panier.component';
+import { CommandeService } from './commande.service';
+import { ErreursComponent } from './erreurs/erreurs.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +20,15 @@ import { PanierComponent } from './panier/panier.component';
     HeaderComponent,
     FooterComponent,
     DetailsComponent,
-    PanierComponent
+    PanierComponent,
+    ErreursComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [CommandeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
