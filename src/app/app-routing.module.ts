@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailsComponent } from './details/details.component';
 import { PanierComponent } from './panier/panier.component';
+import { RGPDComponent } from './rgpd/rgpd.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'footer', component: FooterComponent, },
   { path: 'details', component: DetailsComponent, },
   { path: 'panier', component: PanierComponent, },
+  { path: 'rgpd', component: RGPDComponent, },
 ];
 
 @NgModule({
