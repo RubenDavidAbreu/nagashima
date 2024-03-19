@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailsComponent } from './details/details.component';
 import { PanierComponent } from './panier/panier.component';
+import { RGPDComponent } from './rgpd/rgpd.component';
 import { CommandeService } from './commande.service';
 import { ErreursComponent } from './erreurs/erreurs.component';
 
@@ -21,7 +22,8 @@ import { ErreursComponent } from './erreurs/erreurs.component';
     FooterComponent,
     DetailsComponent,
     PanierComponent,
-    ErreursComponent
+    ErreursComponent,
+    RGPDComponent
   ],
   imports: [
     BrowserModule,
