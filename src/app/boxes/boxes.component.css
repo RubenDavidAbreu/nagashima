@@ -36,11 +36,6 @@
     border-radius: 0.9vw;
 }
 
-.buttonAdd {
-    margin: 0 0.4vw;
-    cursor: pointer;
-}
-
 /* Filter */
 #filterContainer {
     position: fixed;
@@ -75,21 +70,3 @@
     font-family: 'Alegreya';
 }
 
-.buttonAddContainer{
-    align-items: center;
-}
-
-@font-face {
-    font-family: 'YujiBoku';
-    src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Alegreya';
-    src: url('../../assets/Fonts/Alegreya-VariableFont_wght.ttf');
-}
-
-.nbr{
-    font-family: 'YujiBoku';
-    font-size: 1.2em;
-}
