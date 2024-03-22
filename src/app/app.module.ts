@@ -11,6 +11,7 @@ import { DetailsComponent } from './details/details.component';
 import { PanierComponent } from './panier/panier.component';
 import { RGPDComponent } from './rgpd/rgpd.component';
 import { CommandeService } from './commande.service';
+import { DetailsBoxService } from './details-box.service';
 import { ErreursComponent } from './erreurs/erreurs.component';
 
 @NgModule({
@@ -30,7 +31,7 @@ import { ErreursComponent } from './erreurs/erreurs.component';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [CommandeService],
+  providers: [CommandeService, DetailsBoxService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
