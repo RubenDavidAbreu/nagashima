@@ -5,9 +5,42 @@ body {
     background-image: url("assets/img/texture-blanc.png");
 }
 
+/* Typographie */
+.lilTitleAl {
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Alegreya';
+}
+
+.name {
+    font-size: 1.8vw;
+    font-family: 'YujiBoku';
+}
+
+.price {
+    font-size: 1.8vw;
+    font-family: 'Alegreya';
+}
+
+.bPrice {
+    font-size: 2.5vw;
+    font-family: 'Alegreya';
+}
+
+.TCC {
+    font-size: 1.8vw;
+    font-weight: 400;
+    font-family: 'Alegreya';
+}
+
 /* position */
 .fRow {
     display: flex;
+}
+
+.fCol {
+    display: flex;
+    flex-direction: column;
 }
 
 .jcSb {
@@ -19,29 +52,63 @@ body {
 }
 
 /* Padding - Margin - Border */
-.lightGreyBorder {
-    border: 0.1vw solid rgb(155, 155, 155);
+.greyBorder {
+    border: 0.1vw solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
 }
 
-.greyBorder {
-    border: 0.1vw solid rgb(109, 109, 109);
+.lightGreyBorder {
+    border: 0.1vw solid rgba(0, 0, 0, 0.25);
+    border-collapse: collapse;
+}
+
+.darkGreyBorder {
+    border: 0.1vw solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+}
+
+.greyBorderR {
+    border-right: 0.1vw solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+}
+
+.greyBorderT {
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w60 {
+    width: 60%;
 }
 
 /* Button */
 .buttonAddContainer {
     display: flex;
+    align-items: center;
     border-radius: 0.5vw;
     width: fit-content;
 }
 
-.buttonAddContainer > div {
-    padding: 0.4vw;
+.buttonAdd {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0 0.6vw;
+}
+
+.nbr{
+    font-family: 'YujiBoku';
+    font-size: 1.2em;
+    margin: 0 0.6vw;
 }
 
 .whiteButton {
     width: fit-content;
     padding: 0.4vw;
-    border: 0.1vw solid rgb(155, 155, 155);
+    border: 0.1vw solid rgba(0, 0, 0, 0.5);
     background-color: white;
 }
 
@@ -52,8 +119,6 @@ body {
     right: 0.5vw;
     width: 1.5vw;
     height: 1.5vw;
-
-    
 }
 
 .crossMarg {
@@ -74,4 +139,15 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     height: 15%;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'YujiBoku';
+    src: url('assets/Fonts/YujiBoku-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('assets/Fonts/Alegreya-VariableFont_wght.ttf');
 }

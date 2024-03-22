@@ -1,18 +1,37 @@
 <app-header></app-header>
 <div class="panier">
     <!-- remplacer la div par une fleche en arriere -->
-    <a routerLink="/boxes" onclick="togglesClass('boxesActions', 'panierAction', 'hidden')"><div>retour arrière</div></a>
-    <h2>Commande</h2>
-    <div *ngFor="let item of getItems()">
-        {{ item.box.name }} {{ item.box.price }} x {{ item.box.quantity }}
-        <div class="buttonAddContainer lightGreyBorder">
-            <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
-            <div>{{getItemQuantity(item.box)}}</div>
-            <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
+    <a class="crossContainer" routerLink="/boxes" onclick="togglesClass('boxesActions', 'panierAction', 'hidden')">
+        <img class="crossPanier" src="../../assets/img/right-arrow.png" alt="flèche arriere"/>
+    </a>
+    <div class="greyBorder">  
+        <h2 class="lilTitleAl commandTitleM greyBorderR">Commande</h2>
+        <div class="commandDetailsContainer fCol">
+            <div class="fRow w100" *ngFor="let item of getItems()">
+                <div class="commandName commandLigneP greyBorderR fRow" >
+                    <div class="name w60">{{ item.box.name }}</div>
+                    <div class="buttonAddContainer lightGreyBorder">
+                        <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
+                        <div class="nbr">{{getItemQuantity(item.box)}}</div>
+                        <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
+                    </div>
+                </div>
+                <div class="commandPrice commandLigneP fCol">
+                    <div class="price">{{ item.box.price }}€ x {{getItemQuantity(item.box)}}</div>
+                </div>
+            </div>
+            <div class="fBorder greyBorderR"></div>
         </div>
+
+        <div class="fCol greyBorderT">
+            <div class="fRow jcSb">
+                <div class="TCC my">Prix TCC:</div>
+                <div class="bPrice my">{{getTotalPrice()}}€</div>
+            </div>
+            <div class="whiteButton bigWhiteButton">Payer</div>
+        </div>
+
     </div>
-    <div> Prix TCC : {{getTotalPrice()}}</div>
-    <div class="whiteButton">Payer</div>
 </div>
 
 <!-- Commande -->

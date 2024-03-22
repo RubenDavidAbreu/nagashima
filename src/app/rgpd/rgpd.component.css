@@ -1,0 +1,35 @@
+.RGPD {
+    margin: 18vh 3vw;
+}
+
+.titleRGPD{
+    font-size: 4vh !important;
+    font-weight: 400;
+    text-decoration: underline;
+    font-family: 'Alegreya';
+}
+
+.dateRGPD{
+    text-align: right;
+    font-size: 3vh !important;
+    font-weight: 400;
+    font-family: 'Alegreya';
+}
+
+.text, li{
+    font-size: 2.5vh !important;
+    font-weight: 400;
+    font-family: 'Alegreya';
+}
+
+li {
+    margin-left: 1vw;
+}
+
+.subTitleRGPD{
+    font-size: 3vh !important;
+    font-weight: 400;
+    text-decoration: underline;
+    font-family: 'Alegreya';
+    margin-top: 5vh;
+}
