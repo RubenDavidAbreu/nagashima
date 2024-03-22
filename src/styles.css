@@ -33,17 +33,6 @@ body {
     font-family: 'Alegreya';
 }
 
-@font-face {
-    font-family: 'YujiBoku';
-    src: url('assets/Fonts/YujiBoku-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Alegreya';
-    src: url('assets/Fonts/Alegreya-VariableFont_wght.ttf');
-}
-
-
 /* position */
 .fRow {
     display: flex;
@@ -150,4 +139,15 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     height: 15%;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'YujiBoku';
+    src: url('assets/Fonts/YujiBoku-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('assets/Fonts/Alegreya-VariableFont_wght.ttf');
 }
