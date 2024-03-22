@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+#detailsBox{
+    position: relative;
+    top: 20vh;
+    border: 1px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+}
+
+#imageBoxContainer{
+    text-align: center;
+}
+
+#imageBox{
+    width: 50vw;
+}
+
+#detailsBoxText{
+    padding: 1.5em 2.5em 1.5em 2.5em;
+}
+
+#arrow{
+    position: relative;
+    width: 4vw;
+    top: 14vh;
+    transform: scaleX(-1);
+    margin: 10px;
+}
+
+.ingredientsContainer{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+
+h2, li{
+    font-family: 'Alegreya';    
+}
+
+h1{
+    font-family: 'YujiBoku';
+    font-size: 4.5em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+li{
+    font-size: 2em;
+    margin: 0 1.5em 0 1.5em;
+}
+
+#addBox{
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    font-size: 2em;
+    font-family: 'Alegreya';
+    cursor: pointer; 
+}
+
+@font-face {
+    font-family: 'YujiBoku';
+    src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../../assets/Fonts/Alegreya-VariableFont_wght.ttf');
+}

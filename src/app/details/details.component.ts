@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DetailsBoxService, DetailsBoxItem } from '../details-box.service';
+import { CommandeService } from '../commande.service';
 
 @Component({
   selector: 'app-details',
@@ -7,9 +8,13 @@ import { DetailsBoxService, DetailsBoxItem } from '../details-box.service';
   styleUrl: './details.component.css'
 })
 export class DetailsComponent {
-  constructor(private detailsBoxService: DetailsBoxService) {}
+  constructor(private detailsBoxService: DetailsBoxService, private commandeService: CommandeService) {}
 
   getDetailsBox():  DetailsBoxItem {
     return this.detailsBoxService.getDetailsBox();
+  }
+
+  addItem(box: any) {
+    this.commandeService.addItem(box);
   }
 }

@@ -4,8 +4,8 @@
   <div id="boxesContainer">
     <div *ngFor="let box of boxes" class="boxContainer {{getFlavorClasses(box)}}" >
       <h2 class="boxName">{{box.name}}</h2>
-      <a routerLink="/details" class="boxes">
-        <img (click)="createDetailsBox(box)" class="boxImg lightGreyBorder" src="../../assets/img/{{box.image}}" alt="">
+      <a (click)="createDetailsBox(box)" routerLink="/details" class="boxes">
+        <img class="boxImg lightGreyBorder" src="../../assets/img/{{box.image}}" alt="">
       </a>
       <div class="boxContent">
         <div class="fRow jcSb">

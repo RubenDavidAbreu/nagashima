@@ -72,19 +72,18 @@
     border: solid 0.3vh white;
 }   
 
-
 #start{
+    position: relative;
     text-align: center;
     color: black;
     font-family: 'YujiBoku';
-    margin-top: 10vh;
 }
 
 #logo{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 8vh;
+    margin-top: 5vh;
     width: 10em;
 }
     
