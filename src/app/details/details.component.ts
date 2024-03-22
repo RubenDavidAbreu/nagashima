@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DetailsBoxService, DetailsBoxItem } from '../details-box.service';
 
 @Component({
   selector: 'app-details',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './details.component.css'
 })
 export class DetailsComponent {
+  constructor(private detailsBoxService: DetailsBoxService) {}
 
+  getDetailsBox():  DetailsBoxItem {
+    return this.detailsBoxService.getDetailsBox();
+  }
 }
