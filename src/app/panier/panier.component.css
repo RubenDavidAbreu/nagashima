@@ -1,4 +1,64 @@
-/* temporaire */
+/* Panier */
 .panier {
-    background-color: rgb(162, 162, 162);
+    margin: auto;
+    margin-top: 22vh;
+    margin-bottom: 22vh;
+    width: 50%;
+}
+
+
+.commandDetailsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.commandLigneP {
+    padding: 3vh 0;
+}
+
+.commandName {
+    width: 71%;
+    margin-left:4%;
+}
+
+.commandPrice {
+    width: 25%;
+    text-align: center;
+}
+
+.my {
+    margin: 2vh 5%;
+}
+
+
+/* Padding - Margin - Border */
+.commandTitleM {
+    margin: 0;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+    padding-left:6%;
+    width: 69%;
+}
+
+.fBorder {
+    width: 50%;
+    height: 3vh;
+}
+
+
+/* Bouton */
+.crossPanier {
+    position: absolute;
+    top: 18vh;
+    left: 20vw;
+    width: 3vw;
+    height: 3vw;
+}
+
+.bigWhiteButton {
+    padding: 0.2vw 3vw;
+    font-size: 2.2vw;
+    font-family: 'Alegreya';
+    border-radius: 0.5vw;
+    margin: 0 0 4vh 2vw;
 }
