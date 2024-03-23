@@ -74,6 +74,7 @@ Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDu
 - Optionnel
 
 **Page RGPD :**
+
 ![PageRGPD](gitimg/RGPD.png "Page RGPD")
 
 
