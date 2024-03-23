@@ -22,13 +22,18 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 
 <h2 style="color: blue;">L401_1</h2>
 
+
+
 **Nom et logo de l’application :**
 - Nom: Nagashima
+
+
 
 **Analyse des besoins (Use case) :**
 - Arno
   
 ![Diagramme Use Case](gitimg/Usecase.png "Use Case")
+
 
 
 **Diagramme de d'activité :**
@@ -38,18 +43,23 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 Le diagramme d'activité est [ici](https://lucid.app/lucidchart/c8ddc878-7093-48c6-a0f8-e9d5c21f3217/edit?beaconFlowId=BCD25E95822B9DAF&invitationId=inv_7969b45b-1eb5-421f-9e83-418f4270f8cb&page=0_0#)
 
 
+
 **Conceptualisation de la BDD (diagramme de classes) :**
 - Jérémie (en cours)
+
 
 
 **Schéma de la BDD:**
 ![BDD](gitimg/BDD.png "BDD")
 
 
+
 **Architecture fonctionnelle de l’application :**
 - A définir (en cours)
 
 <h2 style="color: blue;">L401_2</h2>
+
+
 
 **Création de l’API :**
 - Jérémie
@@ -58,10 +68,14 @@ Le diagramme d'activité est [ici](https://lucid.app/lucidchart/c8ddc878-7093-48
 
 Voici le lien vers : [API](https://github.com/RubenDavidAbreu/REST-API)
 
+
+
 **Architecture de l’implémentation :**
 - Tous les membres du groupes (en cours)
 
 <h2 style="color: blue;">L401_3</h2>
+
+
 
 **Maquette de l’application :**
 - Morgane
@@ -72,13 +86,19 @@ Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDu
 
 <h2 style="color: blue;">L401_4</h2>
 
+
+
 **Intégralité code, partie Front :**
 - Lien du GitHub : [Front](https://github.com/RubenDavidAbreu/nagashima) 
 
 <h2 style="color: blue;">L401_5</h2>
 
+
+
 **Compte rendu des tests unitaires effectués :**
 - Optionnel
+
+
 
 **Page RGPD :**
 - Jérémie
