@@ -12,8 +12,8 @@
     flex-wrap: wrap;
     padding-top: 15vh;
     background-image: url('../../assets/img/texture-blanc.png');
-    min-height: 100vh;
-
+    height: fit-content;
+    margin-bottom: 20vh;
 }
 
 .boxContainer {
@@ -68,4 +68,84 @@
     font-weight: 700;
     font-size: 1.7vw;
     font-family: 'Alegreya';
+}
+
+@media screen and (max-width: 426px){
+
+     /* Bouton ajout */
+
+    .buttonAddContainer{
+        width: fit-content;
+        padding: 0;
+    }
+
+    .buttonAdd{
+        font-size: 80%;
+        margin: 0 5px 0 5px;
+    }
+
+    .nbr{
+        font-size: 60%;
+    }
+    
+    .boxContainer {
+        margin-bottom: 0 !important;
+    }
+
+    /* Filter */
+
+    #filterContainer {
+        font-size: 0.6em;
+    }
+
+    .showFilter {
+        width: 20vw;
+        height: 50vw;
+    }
+    
+    .hideFilter {
+        width: 2vw;
+        height: 2.5vw;
+    }
+    
+    .filterRow {
+        padding: 0.5vw;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #boxesContainer {
+        margin-bottom: 0 !important ;
+    }
+}
+
+@media screen and (max-width: 950px){
+
+    #filterContainer {
+        font-size: 0.8em;
+    }
+
+    .showFilter {
+        width: 8vw;
+        height: 50vh !important;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1250px){
+
+    #filterContainer {
+        font-size: 0.8em;
+    }
+
+    .showFilter {
+        width: 8vw;
+        height: 50vh !important;
+    }
+}
+ 
+@media screen and (max-width: 1600px) and (min-width:1251px) {
+    .showFilter {
+        width: 8vw;
+        height: 65vh !important;
+    }
 }

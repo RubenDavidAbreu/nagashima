@@ -77,6 +77,8 @@
     text-align: center;
     color: black;
     font-family: 'YujiBoku';
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #logo{
@@ -105,6 +107,28 @@
 @font-face {
     font-family: 'Alegreya';
     src: url('../../assets/Fonts/Alegreya-VariableFont_wght.ttf');
+}
+
+@media screen and (max-width: 470px){
+    #logo{
+        width: 32%;
+    }
+
+    .noDeco{
+        font-size: 130%;
+    }
+
+    #welcome{
+        font-size: 90%;
+    }
+
+    #title{
+        font-size: 180%;
+    }
+
+    #start{
+        margin-top: 3vh;
+    }
 }
 
 

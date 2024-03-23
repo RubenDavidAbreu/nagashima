@@ -13,11 +13,6 @@
             <div class="ingredientsContainer">
                 <ul *ngFor="let flavor of getDetailsBox().box.flavor">
                     <li>{{flavor.name}}</li>
-                    <li>{{flavor.name}}</li>
-                    <li>{{flavor.name}}</li>
-                    <li>{{flavor.name}}</li>
-                    <li>{{flavor.name}}</li>
-                    <li>{{flavor.name}}</li>
                 </ul>
             </div>
         </div>
@@ -32,4 +27,4 @@
         <button id="addBox" (click)="addItem(getDetailsBox().box)">Ajouter</button>
     </div>
 </section>
-<!-- <app-footer></app-footer> -->
+<app-footer></app-footer>
