@@ -36,7 +36,7 @@
 
 #ligne1{
   position: relative;
-  width: 8vw;
+  width: 12vw;
   margin: 0 3vw 0 0;
   border: solid 0.3vh white;
   height: 0;
@@ -45,7 +45,7 @@
 
 #ligne3{
   position: relative;
-  width: 10VW;
+  width: 100VW;
   margin: 0 3vw 0 0;
   border: solid 0.3vh white;
   height: 0;
@@ -53,7 +53,7 @@
 }
 #ligne2{
   position: relative;
-  width: 6vw;
+  width: 35vw;
   margin: 0 3vw 0 0;
   border: solid 0.3vh white;
   height: 0;
