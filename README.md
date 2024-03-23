@@ -51,7 +51,9 @@ Le diagramme d'activité est [ici](https://lucid.app/lucidchart/c8ddc878-7093-48
 <br>
 
 **Conceptualisation de la BDD (diagramme de classes) :**
-- Jérémie (en cours)
+- Jérémie
+
+![Diagrammme de Classe](gitimg/dc.png)
 
 <br>
 <br>
