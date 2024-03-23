@@ -62,6 +62,8 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 **Maquette de l’application :**
 - Morgane
 
+![Figma](gitimg/figma.png "Maquette Figma")
+
 Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDuOkkbZxPp5JI/SAE-401---Sushi?type=design&node-id=0-1&mode=design&t=OsKSFu5Ozi29BfzR-0)
 
 <h2 style="color: blue;">L401_4</h2>
