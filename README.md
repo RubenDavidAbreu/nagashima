@@ -1,6 +1,14 @@
 # SAE 401
 
-Bienvenu(e) sur le Readme de notre site. Ici bas vous trouverez tous les livrables qu'on a effectué tout au long de la SAE.
+Bienvenu(e) sur le Readme de notre site. Ici bas vous trouverez tous les livrables qu'on a effectué tout au long de la SAE, qui consistait à créer une borne ou application de commande de sushis. Moi et 3 autres membres du groupe, on s'est divisé les tâches afin d'avoir un environnement de travail dynamique. Ce dépôt concerne la partie Front du site, en appuyen sur le [lien](https://github.com/RubenDavidAbreu/REST-API), vous serez redirigés vers le déveoppement de notre API !
+
+# Les membres de notre groupe !
+
+**Ruben**
+En tant que chef de groupe, il se devait d'entretenir au bon déroulement du projet et des relations entre les membres. Il s'est occupé de la partie Front (CSS principalement) du site et la partie Back (80% de l'API).
+
+**Morgane**
+Cette membre s'est occupé de la partie Design du site, dont la création de la maquette (couleurs et police d'écriture) et du logo. Elle a aussi veillé, au fur et à mesure, que les développeurs respectaient la maquette. 
 
 # Répartition des Tâches
 
