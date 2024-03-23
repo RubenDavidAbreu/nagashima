@@ -49,7 +49,11 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 <h2 style="color: blue;">L401_2</h2>
 
 **Création de l’API :**
-- Tous les membres du groupe (en cours)
+- Jérémie
+- Arno
+- Ruben
+
+[API](https://github.com/RubenDavidAbreu/REST-API)
 
 **Architecture de l’implémentation :**
 - Tous les membres du groupes (en cours)
@@ -74,7 +78,8 @@ Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDu
 - Optionnel
 
 **Page RGPD :**
-
+- Jérémie
+- Morgane
 ![PageRGPD](gitimg/RGPD.png "Page RGPD")
 
 
