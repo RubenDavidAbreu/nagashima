@@ -45,3 +45,9 @@ h1{
     font-family: 'YujiBoku';
     src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
 }
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 200%;
+    }
+}
