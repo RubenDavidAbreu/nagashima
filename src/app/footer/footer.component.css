@@ -2,6 +2,60 @@
   display: flex;
   align-items: center;
   margin: auto;
-  justify-content: center;
   
+}
+.mrd{
+  text-decoration: none;
+  color: black;
+}
+#boxesActions{
+  display: flex;
+}
+.whiteButton{
+  width: fit-content;
+  border-radius: 10px;
+  text-align: center;
+  max-height: 7vh;
+  margin: 15PX;
+  width: 7vw;
+  padding: 5px 20px 5px 20px;
+  font-size: 2em;
+  font-family: 'Alegreya';
+  cursor: pointer; 
+}
+
+
+
+.total{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 3em;
+  width: 10Vw;
+}
+
+#ligne1{
+  position: relative;
+  width: 12vw;
+  margin: 0 3vw 0 0;
+  border: solid 0.3vh white;
+  height: 0;
+  top: 4.5vh;
+}
+
+#ligne3{
+  position: relative;
+  width: 100VW;
+  margin: 0 3vw 0 0;
+  border: solid 0.3vh white;
+  height: 0;
+  top: 4.5vh;
+}
+#ligne2{
+  position: relative;
+  width: 35vw;
+  margin: 0 3vw 0 0;
+  border: solid 0.3vh white;
+  height: 0;
+  top: 4.5vh;
 }
