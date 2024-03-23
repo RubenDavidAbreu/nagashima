@@ -16,6 +16,11 @@ Ce membre s'est essentiellement concentré sur la partie front, plus particuliè
 **Arno :**
 Ce membre s'est aussi concentré sur la partie front, dans la création site. Vu que nous avons utilisé Angular pour le front, il fallait créer les composants et services nécessaires pour faire fonctionner le site. Il a aussi collaboré sur la partie back ainsi qu'au niveau du CSS.
 
+# La répartition des tâches
+
+Pour assurer un bon déroulement lors de cette SAE, j'ai décidé de créer un [trello](https://trello.com/b/khcADG0c/sae-401-sushi) qui nous a permis de définir les différenents livrables ainsi que leurs missions. dans chaque Livrable, on a constitué des checklits, puis on a commenté sur chaque livrable pour désigner les personnes attribuées a chaque mission. En plus de ça on a créé un [google doc](https://docs.google.com/document/d/1e8uesi_isb6UTIcC94OynQ04z2M_aVLwD0j89qSBPb8/edit), pou qu'on puisse suivre l'avancement de chacun.
+
+
 # Livrables
 
 Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des noms sont inscrits, donc ils devront les tâches qui leurs seront attribués 
