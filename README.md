@@ -1,27 +1,80 @@
-# Nagashima
+# SAE 401
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+Bienvenu(e) sur le Readme de notre site. Ici bas vous trouverez tous les livrables qu'on a effectué tout au long de la SAE, qui consistait à créer une borne ou application de commande de sushis. Moi et 3 autres membres du groupe, on s'est divisé les tâches afin d'avoir un environnement de travail dynamique. Ce dépôt concerne la partie Front du site, en appuyen sur le [lien](https://github.com/RubenDavidAbreu/REST-API), vous serez redirigés vers le dépôt du déveoppement de notre API REST !
 
-## Development server
+# Les membres de notre groupe !
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Ruben :**
+En tant que chef de groupe, il se devait d'entretenir au bon déroulement du projet et des relations entre les membres. Il s'est occupé de la partie Front (CSS principalement) du site et la partie Back (80% de l'API REST).
 
-## Code scaffolding
+**Morgane :**
+Cette membre s'est occupée de la partie Design du site, dont la création de la maquette (couleurs et police d'écriture) et du logo. Elle a aussi veillée, au fur et à mesure, que les développeurs respectaient la maquette. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Jérémie :**
+Ce membre s'est essentiellement concentré sur la partie front, plus particulièrement de la récupération des données de l'API pour pouvoir les afficher. Il a tout de même contribué à la parti Back et surtout à la création de la base de données.
 
-## Build
+**Arno :**
+Ce membre s'est aussi concentré sur la partie front, dans la création site. Vu que nous avons utilisé Angular pour le front, il fallait créer les composants et services nécessaires pour faire fonctionner le site. Il a aussi collaboré sur la partie back ainsi qu'au niveau du CSS.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Livrables
 
-## Running unit tests
+Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des noms sont inscrits, donc ils devront les tâches qui leurs seront attribués 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h2 style="color: blue;">L401_1</h2>
 
-## Running end-to-end tests
+**Nom et logo de l’application :**
+- Nom: Nagashima
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Analyse des besoins (Use case) :**
+- Arno
+  
+![Diagramme Use Case](Usecase.png "Use Case")
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Diagramme de collaboration :**
+- Ruben (en cours)
+
+
+**Conceptualisation de la BDD (diagramme de classes) :**
+- Jérémie (en cours)
+
+
+**Schéma de la BDD:**
+![BDD](BDD.png "BDD")
+
+
+**Architecture fonctionnelle de l’application :**
+- A définir (en cours)
+
+**Rédaction README :**
+- Ruben (en cours)
+
+<h2 style="color: blue;">L401_2</h2>
+
+**Création de l’API :**
+- Tous les membres du groupe (en cours)
+
+**Architecture de l’implémentation :**
+- Tous les membres du groupes (en cours)
+
+<h2 style="color: blue;">L401_3</h2>
+
+**Maquette de l’application :**
+- Morgane
+
+Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDuOkkbZxPp5JI/SAE-401---Sushi?type=design&node-id=0-1&mode=design&t=OsKSFu5Ozi29BfzR-0)
+
+<h2 style="color: blue;">L401_4</h2>
+
+**Intégralité code, partie Front :**
+- Lien du GitHub : (en cours)
+
+<h2 style="color: blue;">L401_5</h2>
+
+**Compte rendu des tests unitaires effectués :**
+- Optionnel
+
+**Page RGPD :**
+- Front : Jérémie
+- Ecriture : Morgane
+
