@@ -58,7 +58,10 @@ Le diagramme d'activité est [ici](https://lucid.app/lucidchart/c8ddc878-7093-48
 <br>
 
 **Architecture fonctionnelle de l’application :**
-- A définir (en cours)
+- Jérémie
+
+[Image](gitimg/architecturefonc.png)
+[Voici le lien vers l'architecture fonctionnelle](https://www.figma.com/file/wgbogqPk1XJiefPEUsz6HE/Architecture-fonctionnelle-de-l'application?type=whiteboard&node-id=0-1&t=anHQaD4liDsiCQjq-0)
 
 <h2 style="color: blue;">L401_2</h2>
 
