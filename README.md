@@ -34,6 +34,7 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 **Diagramme de d'activité :**
 - Ruben
 
+![Diagramme d'activité](gitimg/da.png "Diagramme d'activité")
 Le diagramme d'activité est [ici](https://lucid.app/lucidchart/c8ddc878-7093-48c6-a0f8-e9d5c21f3217/edit?beaconFlowId=BCD25E95822B9DAF&invitationId=inv_7969b45b-1eb5-421f-9e83-418f4270f8cb&page=0_0#)
 
 
