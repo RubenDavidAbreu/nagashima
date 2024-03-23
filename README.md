@@ -74,6 +74,6 @@ Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDu
 - Optionnel
 
 **Page RGPD :**
-- Front : Jérémie
-- Ecriture : Morgane
+![Page RGPD](gitimg/rgpd.png)
+
 
