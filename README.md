@@ -28,7 +28,7 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 **Analyse des besoins (Use case) :**
 - Arno
   
-![Diagramme Use Case](Usecase.png "Use Case")
+![Diagramme Use Case](gitimg/Usecase.png "Use Case")
 
 
 **Diagramme de collaboration :**
@@ -40,7 +40,7 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 
 
 **Schéma de la BDD:**
-![BDD](BDD.png "BDD")
+![BDD](gitimg/BDD.png "BDD")
 
 
 **Architecture fonctionnelle de l’application :**
