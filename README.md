@@ -31,7 +31,7 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 ![Diagramme Use Case](gitimg/Usecase.png "Use Case")
 
 
-**Diagramme de collaboration :**
+**Diagramme de d'activité :**
 - Ruben (en cours)
 
 
