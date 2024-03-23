@@ -46,9 +46,6 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 **Architecture fonctionnelle de l’application :**
 - A définir (en cours)
 
-**Rédaction README :**
-- Ruben (en cours)
-
 <h2 style="color: blue;">L401_2</h2>
 
 **Création de l’API :**
