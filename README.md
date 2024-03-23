@@ -53,7 +53,7 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 - Arno
 - Ruben
 
-[API](https://github.com/RubenDavidAbreu/REST-API)
+Voici le lien vers : [API](https://github.com/RubenDavidAbreu/REST-API)
 
 **Architecture de l’implémentation :**
 - Tous les membres du groupes (en cours)
