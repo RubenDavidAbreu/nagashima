@@ -4,10 +4,10 @@ Bienvenu(e) sur le Readme de notre site. Ici bas vous trouverez tous les livrabl
 
 # Les membres de notre groupe !
 
-**Ruben**
+**Ruben :**
 En tant que chef de groupe, il se devait d'entretenir au bon déroulement du projet et des relations entre les membres. Il s'est occupé de la partie Front (CSS principalement) du site et la partie Back (80% de l'API).
 
-**Morgane**
+**Morgane :**
 Cette membre s'est occupé de la partie Design du site, dont la création de la maquette (couleurs et police d'écriture) et du logo. Elle a aussi veillé, au fur et à mesure, que les développeurs respectaient la maquette. 
 
 # Répartition des Tâches
