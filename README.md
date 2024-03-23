@@ -20,9 +20,9 @@ Ce membre s'est aussi concentré sur la partie front, dans la création site. Vu
 
 Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des noms sont inscrits, donc ils devront les tâches qui leurs seront attribués 
 
-<h2 style="color: blue;">L401_1</h2>
+<h2 style="color: blue;">L401_1</h2>\
 
-\
+
 
 **Nom et logo de l’application :**
 - Nom: Nagashima
