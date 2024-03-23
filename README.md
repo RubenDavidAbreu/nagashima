@@ -44,7 +44,7 @@ Pour chaque tâche que vous devez réaliser, en dessous du nom de la tâche et d
 **Maquette de l’application :**
 - Morgane
 
-[Lien de la Maquette sur Figma ([adresse](https://www.figma.com/file/js3IPJ5lyDuOkkbZxPp5JI/SAE-401---Sushi?type=design&node-id=0-1&mode=design&t=OsKSFu5Ozi29BfzR-0))]
+Lien de la Maquette sur ([Figma](https://www.figma.com/file/js3IPJ5lyDuOkkbZxPp5JI/SAE-401---Sushi?type=design&node-id=0-1&mode=design&t=OsKSFu5Ozi29BfzR-0))]
 
 <h2 style="color: blue;">L401_4</h2>
 
