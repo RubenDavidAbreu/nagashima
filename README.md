@@ -22,7 +22,7 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 
 <h2 style="color: blue;">L401_1</h2>
 
-
+\
 
 **Nom et logo de l’application :**
 - Nom: Nagashima
