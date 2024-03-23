@@ -66,7 +66,7 @@ Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDu
 <h2 style="color: blue;">L401_4</h2>
 
 **Intégralité code, partie Front :**
-- Lien du GitHub : (en cours)
+- Lien du GitHub : [Front}(https://github.com/RubenDavidAbreu/nagashima) 
 
 <h2 style="color: blue;">L401_5</h2>
 
