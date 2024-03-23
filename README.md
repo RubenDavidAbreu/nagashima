@@ -80,6 +80,8 @@ Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDu
 **Page RGPD :**
 - Jérémie
 - Morgane
+
+
 ![PageRGPD](gitimg/RGPD.png "Page RGPD")
 
 
