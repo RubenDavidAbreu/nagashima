@@ -1,18 +1,24 @@
 # SAE 401
 
-Bienvenu(e) sur le Readme de notre site. Ici bas vous trouverez tous les livrables qu'on a effectué tout au long de la SAE, qui consistait à créer une borne ou application de commande de sushis. Moi et 3 autres membres du groupe, on s'est divisé les tâches afin d'avoir un environnement de travail dynamique. Ce dépôt concerne la partie Front du site, en appuyen sur le [lien](https://github.com/RubenDavidAbreu/REST-API), vous serez redirigés vers le déveoppement de notre API !
+Bienvenu(e) sur le Readme de notre site. Ici bas vous trouverez tous les livrables qu'on a effectué tout au long de la SAE, qui consistait à créer une borne ou application de commande de sushis. Moi et 3 autres membres du groupe, on s'est divisé les tâches afin d'avoir un environnement de travail dynamique. Ce dépôt concerne la partie Front du site, en appuyen sur le [lien](https://github.com/RubenDavidAbreu/REST-API), vous serez redirigés vers le déveoppement de notre API REST !
 
 # Les membres de notre groupe !
 
 **Ruben :**
-En tant que chef de groupe, il se devait d'entretenir au bon déroulement du projet et des relations entre les membres. Il s'est occupé de la partie Front (CSS principalement) du site et la partie Back (80% de l'API).
+En tant que chef de groupe, il se devait d'entretenir au bon déroulement du projet et des relations entre les membres. Il s'est occupé de la partie Front (CSS principalement) du site et la partie Back (80% de l'API REST).
 
 **Morgane :**
-Cette membre s'est occupé de la partie Design du site, dont la création de la maquette (couleurs et police d'écriture) et du logo. Elle a aussi veillé, au fur et à mesure, que les développeurs respectaient la maquette. 
+Cette membre s'est occupée de la partie Design du site, dont la création de la maquette (couleurs et police d'écriture) et du logo. Elle a aussi veillée, au fur et à mesure, que les développeurs respectaient la maquette. 
 
-# Répartition des Tâches
+**Jérémie :**
+Ce membre s'est essentiellement concentré sur la partie front, plus particulièrement de la récupération des données de l'API pour pouvoir les afficher. Il a tout de même contribué à la parti Back et surtout à la création de la base de données.
 
-Pour chaque tâche que vous devez réaliser, en dessous du nom de la tâche et de votre nom, déposez votre avancement, soit image, texte, lien...
+**Arno :**
+Ce membre s'est aussi concentré sur la partie front, dans la création site. Vu que nous avons utilisé Angular pour le front, il fallait créer les composants et services nécessaires pour faire fonctionner le site. Il a aussi collaboré sur la partie back ainsi qu'au niveau du CSS.
+
+# Livrables
+
+Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des noms sont inscrits, donc ils devront les tâches qui leurs seront attribués 
 
 <h2 style="color: blue;">L401_1</h2>
 
