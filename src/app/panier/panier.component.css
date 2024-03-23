@@ -49,6 +49,7 @@
 /* Bouton */
 .crossPanier {
     position: absolute;
+    transform: rotate(180deg);
     top: 18vh;
     left: 20vw;
     width: 3vw;
