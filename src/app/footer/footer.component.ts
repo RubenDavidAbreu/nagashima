@@ -8,6 +8,15 @@ import { CommandeService } from '../commande.service';
 })
 
 export class FooterComponent {
+  // commandeVisible = false;
+  // toggleCommande() {
+  //   document.getElementsByClassName('footer')
+  //   this.commandeVisible = !this.commandeVisible;
+  //   console.log(this.commandeVisible); // Pour le débogage
+  // }
+  
+
+
   constructor(private commandeService: CommandeService) {}
 
   commande() {

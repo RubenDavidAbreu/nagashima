@@ -1,8 +1,12 @@
 #footer {
+  display: block;
+  transition:  3s ease-out;
+}
+
+.vflex{
   display: flex;
   align-items: center;
   margin: auto;
-  
 }
 .mrd{
   text-decoration: none;
@@ -24,7 +28,21 @@
   cursor: pointer; 
 }
 
+.see{
+  position: relative;
+  display: block;
+  margin: auto;
+  bottom: 2.5vh;
+  height: 5vh;
+  width: 4vw;
+  border-radius: 100%;
+}
 
+.see > img {
+  width: 3vw;
+  height: 3vh;
+  transform: rotate(-90deg);
+}
 
 .total{
   display: flex;
@@ -58,4 +76,45 @@
   border: solid 0.3vh white;
   height: 0;
   top: 4.5vh;
+}
+
+.close{
+  display: none;
+
+}
+
+#commandeItemContainer{
+  margin-top: 2VH;
+  margin-bottom: 2VH;
+}
+
+.boxname{
+  font-size: 2.5em;
+  margin-left: 2vw;
+  width: 15vw;
+}
+
+.commandeItem{
+  display: flex;
+  margin-bottom: 1.5vh ;
+}
+
+.buttonAddContainer{
+  display: flex;
+  margin-left: 3VW;
+  width: 6vw;
+
+  justify-content: center;
+}
+
+.pdroite{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 55vw;
+  font-size: 3em;
+}
+
+.chiffre{
+  font-size: 2.5em;
 }
