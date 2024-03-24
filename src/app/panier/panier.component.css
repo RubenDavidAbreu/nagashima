@@ -49,6 +49,7 @@
 /* Bouton */
 .crossPanier {
     position: absolute;
+    transform: rotate(180deg);
     top: 18vh;
     left: 5vw;
     width: 3vw;
@@ -180,4 +181,24 @@
         width: 5vw;
         height: 5vw;
     }
+=======
+
+#footer{
+    display: flex;
+    align-items: center;
+}
+
+.whiteButton{
+
+    top: 5vh;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    max-height: 7vh;
+    margin: 15PX;
+    width: 20vw;
+    padding: 5px 20px 5px 20px;
+    font-size: 2em;
+    font-family: 'Alegreya';
+    cursor: pointer; 
 }

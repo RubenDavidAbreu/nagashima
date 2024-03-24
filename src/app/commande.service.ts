@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-
 export class Commande {
   items: CommandeItem[] = [];
   tooManyBoxesReached: boolean = false;
@@ -14,7 +13,7 @@ export class Commande {
 
   addItem(box: any) {
     if (this.getTotalQuantity() < 10) {
-      const existingItem = this.items.find(item => item.box === box);
+      const existingItem = this.items.find((item) => item.box === box);
       if (existingItem) {
         existingItem.quantity += 1;
       } else {
@@ -26,7 +25,7 @@ export class Commande {
   }
 
   removeItem(box: any) {
-    const existingItem = this.items.find(item => item.box === box);
+    const existingItem = this.items.find((item) => item.box === box);
     if (existingItem) {
       if (existingItem.quantity > 1) {
         existingItem.quantity -= 1;
@@ -43,8 +42,18 @@ export class Commande {
     this.items = [];
   }
 
-  getTotalPrice(): number {
-    return Number(this.items.reduce((total, item) => total + (item.box.price * item.quantity), 0).toFixed(2));
+  getTotalPrice(): any {
+    const nbr: number = Number(
+      this.items
+        .reduce((total, item) => total + item.box.price * item.quantity, 0)
+        .toFixed(2)
+    );
+    if (nbr == 0) {
+      return '00.00';
+    }
+    else{
+      return nbr;
+    }
   }
 
   getTotalQuantity(): number {
@@ -52,11 +61,10 @@ export class Commande {
   }
 
   getItemQuantity(box: any): number {
-    const existingItem = this.items.find(item => item.box === box);
+    const existingItem = this.items.find((item) => item.box === box);
     if (existingItem) {
       return existingItem.quantity;
-    }
-    else {
+    } else {
       return 0;
     }
   }
