@@ -30,13 +30,15 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 **Nom et logo de l’application :**
 - Nom: Nagashima
 
+<img src="gitimg/logoNagashima.png" alt="drawing" style="width:200px;"/>
+
 <br>
 <br>
 
 **Analyse des besoins (Use case) :**
 - Arno
   
-![Diagramme Use Case](gitimg/Usecase.png "Use Case")
+![Diagramme Use Case](gitimg/Use_case_1.png "Use Case")
 
 <br>
 <br>

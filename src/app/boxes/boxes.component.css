@@ -70,7 +70,26 @@
     font-family: 'Alegreya';
 }
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 350px){
+
+    .prix{
+        font-size: 4vw;
+    }
+
+    /* Filtre */
+
+    #boxesContainer {
+        margin-bottom: 0 !important ;
+    }
+
+    #filterContainer {
+        font-size: 0.8em;
+    }
+
+    .showFilter {
+        width: 100px;
+        height: 32vh !important;
+    }
 
      /* Bouton ajout */
 
@@ -80,29 +99,57 @@
     }
 
     .buttonAdd{
-        font-size: 80%;
+        font-size: 90%;
         margin: 0 5px 0 5px;
     }
 
     .nbr{
-        font-size: 60%;
+        font-size: 70%;
+    }
+    
+    .boxContainer {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (min-width: 351px) and (max-width: 600px){
+
+    .prix{
+        font-size: 3.4vw;
+    }
+
+     /* Bouton ajout */
+
+    .buttonAddContainer{
+        width: fit-content;
+        padding: 0;
+    }
+
+    .buttonAdd{
+        font-size: 110%;
+        margin: 0 5px 0 5px;
+    }
+
+    .nbr{
+        font-size: 80%;
     }
     
     .boxContainer {
         margin-bottom: 0 !important;
     }
 
+
     /* Filter */
 
     #filterContainer {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     .showFilter {
         width: 20vw;
-        height: 50vw;
+        height: 36vh !important;
     }
-    
+
     .hideFilter {
         width: 2vw;
         height: 2.5vw;
@@ -113,32 +160,31 @@
     }
 }
 
-@media screen and (max-width: 350px){
-    #boxesContainer {
-        margin-bottom: 0 !important ;
-    }
-}
-
-@media screen and (max-width: 950px){
+@media screen and (min-width: 601px) and (max-width: 900px){
 
     #filterContainer {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     .showFilter {
-        width: 8vw;
-        height: 50vh !important;
+        width: 14vw;
+        height: 45vh !important;
+    }
+
+    .prix{
+        font-size: 2.2vw;
     }
 }
 
-@media screen and (min-width: 951px) and (max-width: 1250px){
+
+@media screen and (min-width: 901px) and (max-width: 1250px){
 
     #filterContainer {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     .showFilter {
-        width: 8vw;
+        width: 12vw;
         height: 50vh !important;
     }
 }
