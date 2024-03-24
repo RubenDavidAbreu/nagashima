@@ -35,7 +35,7 @@
 .commandTitleM {
     margin: 0;
     padding-top: 2vh;
-    padding-bottom: 6vh;
+    padding-bottom: 3vh;
     padding-left:6%;
     width: 69%;
 }
@@ -49,10 +49,12 @@
 /* Bouton */
 .crossPanier {
     position: absolute;
+    transform: rotate(180deg);
     top: 18vh;
-    left: 20vw;
+    left: 5vw;
     width: 3vw;
     height: 3vw;
+    transform: scaleX(-1);
 }
 
 .bigWhiteButton {
@@ -61,4 +63,142 @@
     font-family: 'Alegreya';
     border-radius: 0.5vw;
     margin: 0 0 4vh 2vw;
+}
+
+/* Format téléphone */
+
+@media screen and (max-width: 426px){
+    .panier {
+        width: 80vw;
+    }
+
+    .lilTitleAl {
+        font-size: 6vw;
+    }
+
+    .commandTitleM {
+        margin: 0;
+        padding-bottom: 1vh;
+        width: 69%;
+    }
+
+    .price {
+        font-size: 4vw;
+        font-family: 'Alegreya';
+    }
+
+    .TCC{
+        font-size: 4.5vw;
+    }
+
+    .bPrice{
+        font-size: 5.2vw;
+    }
+    
+
+    .bigWhiteButton{
+        padding: 0.3vw 4vw;
+        font-size: 4vw;
+        font-family: 'Alegreya';
+        border-radius: 0.5vw;
+    }
+
+    .name {
+        font-size: 4vw;
+    }
+
+    .buttonAdd{
+        font-size: 90%;
+        margin: 0 5px 0 5px;
+    }
+
+    .nbr{
+        font-size: 80%;
+    }
+
+    .crossPanier {
+        top: 15vh;
+        left: 4vw;
+        width: 7vw;
+        height: 7vw;
+    }
+}
+
+/* Format tablette */
+
+@media screen and (min-width: 427px) and (max-width: 769px){
+    
+    .panier {
+        width: 70vw;
+    }
+
+    .lilTitleAl {
+        font-size: 4.5vw;
+    }
+
+    .commandTitleM {
+        margin: 0;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left:6%;
+        width: 69%;
+    }
+
+    .price {
+        font-size: 3vw;
+        font-family: 'Alegreya';
+    }
+
+    .TCC{
+        font-size: 3vw;
+    }
+
+    .bPrice{
+        font-size: 3.7vw;
+    }
+    
+
+    .bigWhiteButton{
+        padding: 0.3vw 4vw;
+        font-size: 2.8vw;
+    }
+
+    .name {
+        font-size: 3vw;
+    }
+
+    .buttonAdd{
+        font-size: 130%;
+        margin: 0 5px 0 5px;
+    }
+
+    .nbr{
+        font-size: 110%;
+    }
+    
+    .crossPanier {
+        left: 4vw;
+        width: 5vw;
+        height: 5vw;
+    }
+=======
+
+#footer{
+    display: flex;
+    align-items: center;
+}
+
+.whiteButton{
+
+    top: 5vh;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    max-height: 7vh;
+    margin: 15PX;
+    width: 20vw;
+    padding: 5px 20px 5px 20px;
+    font-size: 2em;
+    font-family: 'Alegreya';
+    cursor: pointer; 
 }

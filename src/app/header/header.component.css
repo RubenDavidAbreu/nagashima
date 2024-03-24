@@ -2,7 +2,7 @@ img{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 14vh;
+    height: 12vh;
     object-fit: cover;
 }
 
@@ -20,7 +20,7 @@ h1{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 14vh;
+    height: 12vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,4 +44,10 @@ h1{
 @font-face{
     font-family: 'YujiBoku';
     src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 200%;
+    }
 }

@@ -12,11 +12,9 @@ export class DetailsBoxItem {
 }
 
 export class DetailsBoxService {
-  DetailsBoxItem: DetailsBoxItem;
-  
-  constructor() {
-    this.DetailsBoxItem = new DetailsBoxItem();
-   }
+  DetailsBoxItem = new DetailsBoxItem();
+
+  constructor() {}
 
   createDetailsBox(box: any[]) {
     this.DetailsBoxItem.box = box;

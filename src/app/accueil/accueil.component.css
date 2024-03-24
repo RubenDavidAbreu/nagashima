@@ -72,19 +72,20 @@
     border: solid 0.3vh white;
 }   
 
-
 #start{
+    position: relative;
     text-align: center;
     color: black;
     font-family: 'YujiBoku';
-    margin-top: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #logo{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 8vh;
+    margin-top: 5vh;
     width: 10em;
 }
     
@@ -98,14 +99,26 @@
     left: 2vw;
 }
 
-@font-face {
-    font-family: 'YujiBoku';
-    src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
-}
+@media screen and (max-width: 470px){
+    #logo{
+        width: 32%;
+    }
 
-@font-face {
-    font-family: 'Alegreya';
-    src: url('../../assets/Fonts/Alegreya-VariableFont_wght.ttf');
+    .noDeco{
+        font-size: 130%;
+    }
+
+    #welcome{
+        font-size: 90%;
+    }
+
+    #title{
+        font-size: 180%;
+    }
+
+    #start{
+        margin-top: 3vh;
+    }
 }
 
 
