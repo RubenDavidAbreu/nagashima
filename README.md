@@ -16,6 +16,11 @@ Ce membre s'est essentiellement concentré sur la partie front, plus particuliè
 **Arno :**
 Ce membre s'est aussi concentré sur la partie front, dans la création site. Vu que nous avons utilisé Angular pour le front, il fallait créer les composants et services nécessaires pour faire fonctionner le site. Il a aussi collaboré sur la partie back ainsi qu'au niveau du CSS.
 
+# La répartition des tâches
+
+Pour assurer un bon déroulement lors de cette SAE, j'ai décidé de créer un [trello](https://trello.com/b/khcADG0c/sae-401-sushi) qui nous a permis de définir les différenents livrables ainsi que leurs missions. dans chaque Livrable, on a constitué des checklits, puis on a commenté sur chaque livrable pour désigner les personnes attribuées a chaque mission. En plus de ça on a créé un [google doc](https://docs.google.com/document/d/1e8uesi_isb6UTIcC94OynQ04z2M_aVLwD0j89qSBPb8/edit), pou qu'on puisse suivre l'avancement de chacun.
+
+
 # Livrables
 
 Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des noms sont inscrits, donc ils devront les tâches qui leurs seront attribués 
@@ -25,56 +30,94 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 **Nom et logo de l’application :**
 - Nom: Nagashima
 
+<br>
+<br>
+
 **Analyse des besoins (Use case) :**
 - Arno
   
-![Diagramme Use Case](Usecase.png "Use Case")
+![Diagramme Use Case](gitimg/Usecase.png "Use Case")
 
+<br>
+<br>
 
-**Diagramme de collaboration :**
-- Ruben (en cours)
+**Diagramme de d'activité :**
+- Ruben
 
+![Diagramme d'activité](gitimg/da.png "Diagramme d'activité")
+Le diagramme d'activité est [ici](https://lucid.app/lucidchart/c8ddc878-7093-48c6-a0f8-e9d5c21f3217/edit?beaconFlowId=BCD25E95822B9DAF&invitationId=inv_7969b45b-1eb5-421f-9e83-418f4270f8cb&page=0_0#)
+
+<br>
+<br>
 
 **Conceptualisation de la BDD (diagramme de classes) :**
-- Jérémie (en cours)
+- Jérémie
 
+![Diagrammme de Classe](gitimg/dc.png)
+
+<br>
+<br>
 
 **Schéma de la BDD:**
-![BDD](BDD.png "BDD")
+![BDD](gitimg/BDD.png "BDD")
 
+<br>
+<br>
 
 **Architecture fonctionnelle de l’application :**
-- A définir (en cours)
+- Jérémie
 
-**Rédaction README :**
-- Ruben (en cours)
+![Image](gitimg/architecturefonc.png)
+
+[Voici le lien vers l'architecture fonctionnelle](https://www.figma.com/file/wgbogqPk1XJiefPEUsz6HE/Architecture-fonctionnelle-de-l'application?type=whiteboard&node-id=0-1&t=anHQaD4liDsiCQjq-0)
 
 <h2 style="color: blue;">L401_2</h2>
 
 **Création de l’API :**
-- Tous les membres du groupe (en cours)
+- Jérémie
+- Arno
+- Ruben
+
+Voici le lien vers : [API](https://github.com/RubenDavidAbreu/REST-API)
+
+<br>
+<br>
 
 **Architecture de l’implémentation :**
 - Tous les membres du groupes (en cours)
 
 <h2 style="color: blue;">L401_3</h2>
 
+<br>
+<br>
+
 **Maquette de l’application :**
 - Morgane
+
+![Figma](gitimg/figma.png "Maquette Figma")
 
 Voici le lien vers notre maquette [Figma](https://www.figma.com/file/js3IPJ5lyDuOkkbZxPp5JI/SAE-401---Sushi?type=design&node-id=0-1&mode=design&t=OsKSFu5Ozi29BfzR-0)
 
 <h2 style="color: blue;">L401_4</h2>
 
 **Intégralité code, partie Front :**
-- Lien du GitHub : (en cours)
+- Lien du GitHub : [Front](https://github.com/RubenDavidAbreu/nagashima) 
 
 <h2 style="color: blue;">L401_5</h2>
+
+
 
 **Compte rendu des tests unitaires effectués :**
 - Optionnel
 
+<br>
+<br>
+
 **Page RGPD :**
-- Front : Jérémie
-- Ecriture : Morgane
+- Jérémie
+- Morgane
+
+
+![PageRGPD](gitimg/RGPD.png "Page RGPD")
+
 
