@@ -1,6 +1,9 @@
 <!-- Commande -->
 <div>
   <div class="footer" id="footer">
+    <button class="see" onclick="toggleClasses('commandeItemContainer', 'close', null)">
+      <img class="cross2" src="../../assets/img/right-arrow.png" alt="" srcset="" />
+    </button>
     <div id="commandeItemContainer" class="close">
     <div
       *ngFor="let item of commande.items"
@@ -8,17 +11,17 @@
       id="commandeItem"
     >
       <div class="boxname">{{ item.box.name }}</div>
+     
       <div class="buttonAddContainer lightGreyBorder">
         <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
-        <div>{{ item.quantity }}</div>
+        <div class="chiffre">{{ item.quantity }}</div>
         <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
       </div>
-      <div>{{ item.box.price }} € x {{ item.quantity }}</div>
+      <div class="pdroite">{{ item.box.price }} € x {{ item.quantity }}</div>
+
     </div>
   </div>
-    <button class="see" onclick="toggleClasses('commandeItemContainer', 'close', null)">
-      <img src="../../assets/img/right-arrow.png" alt="" srcset="" />
-    </button>
+    
 
     <div class="vflex">
       <div id="commandeContainer">
