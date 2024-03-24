@@ -13,7 +13,7 @@ export class Commande {
 
   addItem(box: any) {
     if (this.getTotalQuantity() < 10) {
-      const existingItem = this.items.find((item) => item.box === box);
+      const existingItem = this.items.find((item) => item.box.idBox === box.idBox);
       if (existingItem) {
         existingItem.quantity += 1;
       } else {
@@ -25,7 +25,7 @@ export class Commande {
   }
 
   removeItem(box: any) {
-    const existingItem = this.items.find((item) => item.box === box);
+    const existingItem = this.items.find((item) => item.box.idBox === box.idBox);
     if (existingItem) {
       if (existingItem.quantity > 1) {
         existingItem.quantity -= 1;
@@ -61,7 +61,7 @@ export class Commande {
   }
 
   getItemQuantity(box: any): number {
-    const existingItem = this.items.find((item) => item.box === box);
+    const existingItem = this.items.find((item) => item.box.idBox === box.idBox);
     if (existingItem) {
       return existingItem.quantity;
     } else {
