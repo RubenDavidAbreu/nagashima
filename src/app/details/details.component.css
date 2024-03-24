@@ -50,6 +50,8 @@ h2, li{
 h1{
     font-family: 'YujiBoku';
     font-size: 4.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 h2{
@@ -70,12 +72,78 @@ li{
     cursor: pointer; 
 }
 
-@font-face {
-    font-family: 'YujiBoku';
-    src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
+/* Format téléphone S */
+
+@media screen and (max-width: 321px){
+    #imageBox{
+        width: 60vw;
+    }
 }
 
-@font-face {
-    font-family: 'Alegreya';
-    src: url('../../assets/Fonts/Alegreya-VariableFont_wght.ttf');
+/* Format téléphone */
+
+@media screen and (max-width: 426px){
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.2em;
+    }
+    
+    li{
+        font-size: 0.8em;
+        margin: 0 1em 0 1em;
+    }
+
+    #addBox{
+        padding: 3px 15px 3px 15px;
+        font-size: 1em;
+        font-family: 'Alegreya';
+    }
+
+    #detailsBoxText{
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    #detailsBox{
+        top: 14vh;
+        width: 15em;
+    }
+
+    .ingredientsContainer{
+        margin-bottom: 12px;
+    }
+}
+
+/* Format tablette */
+
+@media screen and (min-width: 427px) and (max-width: 769px){
+    h1{
+        font-size: 3em;
+    }
+
+    h2{
+        font-size: 1.6em;
+    }
+    
+    li{
+        font-size: 1.2em;
+        margin: 0 1em 0 1em;
+    }
+
+    #addBox{
+        padding: 5px 20px 5px 20px;
+        font-size: 1.5em;
+        font-family: 'Alegreya';
+    }
+
+    #detailsBox{
+        top: 14vh;
+        max-width: 25em;
+    }
+
+    .ingredientsContainer{
+        margin-bottom: 20px;
+    }
 }
