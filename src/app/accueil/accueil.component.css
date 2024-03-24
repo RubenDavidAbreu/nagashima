@@ -99,16 +99,6 @@
     left: 2vw;
 }
 
-@font-face {
-    font-family: 'YujiBoku';
-    src: url('../../assets/Fonts/YujiBoku-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Alegreya';
-    src: url('../../assets/Fonts/Alegreya-VariableFont_wght.ttf');
-}
-
 @media screen and (max-width: 470px){
     #logo{
         width: 32%;
