@@ -31,6 +31,7 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 - Nom: Nagashima
 
 ![Logo](gitimg/logoNagashima.png)
+
 <br>
 <br>
 
