@@ -2,7 +2,7 @@
 <div>
   <div class="toutcommande">
     <!-- Boxes réserver -->
-    <div *ngFor="let item of commande.items" class="commandeItem fRow">
+    <div *ngFor="let item of commande().items" class="commandeItem fRow">
       <div>{{ item.box.name }}</div>
       <div class="buttonAddContainer lightGreyBorder">
         <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
@@ -27,7 +27,7 @@
           Annuler
         </div>
         <hr id="ligne2" />
-        <div class="total">{{ commande.getTotalPrice() }} €</div>
+        <div class="total">{{ getTotalPrice() }} €</div>
         <hr id="ligne3" />
       </div>
 
