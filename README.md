@@ -30,6 +30,7 @@ Cette partie concerne nos livrables. Dans chaque livrable, sous les tâches, des
 **Nom et logo de l’application :**
 - Nom: Nagashima
 
+![Logo](gitimg/logoNagashima.png)
 <br>
 <br>
 
