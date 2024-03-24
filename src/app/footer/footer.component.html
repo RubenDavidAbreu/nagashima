@@ -1,9 +1,13 @@
 <!-- Commande -->
 <div>
-  <div class="toutcommande">
-    <!-- Boxes réserver -->
-    <div *ngFor="let item of commande.items" class="commandeItem fRow">
-      <div>{{ item.box.name }}</div>
+  <div class="footer" id="footer">
+    <div id="commandeItemContainer" class="close">
+    <div
+      *ngFor="let item of commande.items"
+      class="commandeItem fRow"
+      id="commandeItem"
+    >
+      <div class="boxname">{{ item.box.name }}</div>
       <div class="buttonAddContainer lightGreyBorder">
         <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
         <div>{{ item.quantity }}</div>
@@ -12,26 +16,31 @@
       <div>{{ item.box.price }} € x {{ item.quantity }}</div>
     </div>
   </div>
-  <div id="footer">
-    <div id="commandeContainer">
-      <!-- Action -->
-      <div id="boxesActions" class="fRow">
-        <hr id="ligne1" />
-        <a class="mrd" routerLink="/panier"
-          ><div class="whiteButton">Payer</div></a
-        >
-        <div
-          class="whiteButton"
-          onclick="toggleClasses('cancelCommand', 'hidden')"
-        >
-          Annuler
-        </div>
-        <hr id="ligne2" />
-        <div class="total">{{ commande.getTotalPrice() }} €</div>
-        <hr id="ligne3" />
-      </div>
+    <button class="see" onclick="toggleClasses('commandeItemContainer', 'close', null)">
+      <img src="../../assets/img/right-arrow.png" alt="" srcset="" />
+    </button>
 
-      <!-- <div id="panierAction" class="whiteButton hidden" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler la commande</div> -->
+    <div class="vflex">
+      <div id="commandeContainer">
+        <!-- Action -->
+        <div id="boxesActions" class="fRow">
+          <hr id="ligne1" />
+          <a class="mrd" routerLink="/panier"
+            ><div class="whiteButton">Payer</div></a
+          >
+          <div
+            class="whiteButton"
+            onclick="toggleClasses('cancelCommand', 'hidden')"
+          >
+            Annuler
+          </div>
+          <hr id="ligne2" />
+          <div class="total">{{ commande.getTotalPrice() }} €</div>
+          <hr id="ligne3" />
+        </div>
+
+        <!-- <div id="panierAction" class="whiteButton hidden" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler la commande</div> -->
+      </div>
     </div>
   </div>
 </div>

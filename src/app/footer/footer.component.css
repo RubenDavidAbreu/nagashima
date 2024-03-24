@@ -1,8 +1,12 @@
 #footer {
+  display: block;
+
+}
+
+.vflex{
   display: flex;
   align-items: center;
   margin: auto;
-  
 }
 .mrd{
   text-decoration: none;
@@ -24,7 +28,20 @@
   cursor: pointer; 
 }
 
+.see{
+  position: fixed;
+  height: 5vh;
+  width: 4vw;
+  top: -2.5vh;
+  left: 50vw;
+  border-radius: 100%;
+}
 
+.see > img {
+  width: 3vw;
+  height: 3vh;
+  transform: rotate(-90deg);
+}
 
 .total{
   display: flex;
@@ -58,4 +75,12 @@
   border: solid 0.3vh white;
   height: 0;
   top: 4.5vh;
+}
+
+.close{
+  display: none;
+}
+
+#commandeItemContainer{
+  margin-top: 4VH;
 }
