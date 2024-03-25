@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
     cross2.style.transition = `transform ${newDuration}ms`;
 
     if (isRotated) {
-      cross2.style.transform = 'rotate(-90deg)';
+      cross2.style.transform = 'rotate(0deg)';
     } else {
-      cross2.style.transform = 'rotate(90deg)';
+      cross2.style.transform = 'rotate(180deg)';
     }
     isRotated = !isRotated; // Toggle the state
   });
