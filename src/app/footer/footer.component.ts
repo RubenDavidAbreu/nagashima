@@ -19,7 +19,7 @@ export class FooterComponent {
 
   constructor(private commandeService: CommandeService) {}
 
-  get commande() {
+  commande() {
     return this.commandeService.commande;
   }
 
@@ -30,6 +30,8 @@ export class FooterComponent {
   removeFromCommande(box: any) {
     this.commandeService.removeItem(box);
   }
+
+  getTotalPrice(): number {
+    return this.commandeService.getTotalPrice();
+  }
 }
-
-

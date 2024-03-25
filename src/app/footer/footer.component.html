@@ -6,7 +6,7 @@
     </button>
     <div id="commandeItemContainer" class="close">
     <div
-      *ngFor="let item of commande.items"
+      *ngFor="let item of commande().items"
       class="commandeItem fRow"
       id="commandeItem"
     >
@@ -38,7 +38,7 @@
             Annuler
           </div>
           <hr id="ligne2" />
-          <div class="total">{{ commande.getTotalPrice() }} €</div>
+          <div class="total">{{ getTotalPrice() }} €</div>
           <hr id="ligne3" />
         </div>
 
