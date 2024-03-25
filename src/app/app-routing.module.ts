@@ -11,8 +11,8 @@ import { RGPDComponent } from './rgpd/rgpd.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/accueil', pathMatch: 'full' },
-  { path: 'boxes', component: BoxesComponent, },
-  { path: 'accueil', component: AccueilComponent, },
+  { path: 'boxes', component: BoxesComponent},
+  { path: 'accueil', component: AccueilComponent},
   { path: 'header', component: HeaderComponent, },
   { path: 'footer', component: FooterComponent, },
   { path: 'details', component: DetailsComponent, },
