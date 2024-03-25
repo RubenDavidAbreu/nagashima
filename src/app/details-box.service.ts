@@ -9,7 +9,7 @@ export class DetailsBoxItem {
   constructor() {
     this.box = [];
   }
-}
+} 
 
 export class DetailsBoxService {
   DetailsBoxItem = new DetailsBoxItem();
