@@ -1,10 +1,14 @@
-
+#tooMuchBoxes{
+    text-align: center;
+    font-family: 'Alegreya';
+    height: fit-content;
+}
 .error {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 30%;
     height: 20%;
     background-color: white;
     border: 0.1em solid black;
@@ -17,6 +21,8 @@
     border: 0.1vw solid black;
     border-radius: 0.5vw;
     color: white;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
 }
 
 .blueBg {
@@ -34,4 +40,53 @@
 .mid
 {
     text-align: center;
+}
+
+.cross{
+    position: fixed;
+    top: 1vh;
+}
+
+#cancelCommand{
+    text-align: center;
+    height: fit-content;
+    font-family: 'Alegreya';
+}
+
+@media screen and (min-width: 427px) and (max-width: 769px) {
+    #cancelCommand{
+       padding: 0 5vw 0 5vw;
+    }
+
+    #tooMuchBoxes{
+        padding: 0 5vw 0 5vw;
+     }
+
+    .cross{
+        width: 2vw;
+        height: 2vh;
+    }
+    .errorButton{
+        padding: 0.5em;
+    }
+    
+}
+@media screen and (max-width: 426px) {
+    #cancelCommand{
+        padding: 0 10vw 0 10vw;
+        width: 70vw;
+     }
+
+     #tooMuchBoxes{
+        padding: 0 10vw 0 10vw;
+        width: 70vw;
+     }
+
+     .cross{
+        width: 20px ;
+        height: 20px;
+    }
+    .errorButton{
+        padding: 0.5em;
+    }
 }

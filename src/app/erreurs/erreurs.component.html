@@ -1,21 +1,44 @@
-  <!-- Message d'erreur -->
-  <div id="tooMuchBoxes" class="error" [class.hidden]="!commandeService.commande.tooManyBoxesReached">
-    <div class="relative">
-      <div class="mid">
+<!-- Message d'erreur -->
+<div
+  id="tooMuchBoxes"
+  class="error"
+  [class.hidden]="!commandeService.commande.tooManyBoxesReached"
+>
+  <div class="relative">
+    <div class="mid">
       <h1 class="tred">Attention !</h1>
     </div>
-      <img class="cross" src="../../assets/img/croix.png" alt="croix" (click)="notTooMany()">
-      
-              Vous ne pouvez pas mettre plus de 10 articles dans votre panier
-      <div class="errorButton blueBg" (click)="notTooMany()"> Retour à ma commande </div>
-    </div>
-  </div>
+    <img
+      class="cross"
+      src="../../assets/img/croix.png"
+      alt="croix"
+      (click)="notTooMany()"
+    />
 
-  <div id="cancelCommand" class="error hidden">
-    <div class="relative">
-      <img class="cross" src="../../assets/img/croix.png" alt="croix" onclick="toggleClasses('cancelCommand', 'hidden')">
-      Alerte !! <br>
-      Votre commande s’apprête a être supprimer .
-      <div class="errorButton redBg" (click)="removeCommand()" onclick="toggleClasses('cancelCommand', 'hidden')"> Annuler ma commande </div>
+    Vous ne pouvez pas mettre plus de 10 articles dans votre panier
+    <div class="errorButton blueBg" (click)="notTooMany()">
+      Retour à ma commande
     </div>
   </div>
+</div>
+
+<div id="cancelCommand" class="error hidden">
+  <div class="relative">
+    <img
+      class="cross"
+      src="../../assets/img/croix.png"
+      alt="croix"
+      onclick="toggleClasses('cancelCommand', 'hidden')"
+    />
+    <h1 class="tred">Attention !</h1>
+    <br />
+    Votre commande s’apprête a être supprimer .
+    <div
+      class="errorButton redBg"
+      (click)="removeCommand()"
+      onclick="toggleClasses('cancelCommand', 'hidden')"
+    >
+      Annuler ma commande
+    </div>
+  </div>
+</div>
