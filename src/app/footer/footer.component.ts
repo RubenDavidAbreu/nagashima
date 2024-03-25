@@ -8,9 +8,18 @@ import { CommandeService } from '../commande.service';
 })
 
 export class FooterComponent {
+  // commandeVisible = false;
+  // toggleCommande() {
+  //   document.getElementsByClassName('footer')
+  //   this.commandeVisible = !this.commandeVisible;
+  //   console.log(this.commandeVisible); // Pour le débogage
+  // }
+  
+
+
   constructor(private commandeService: CommandeService) {}
 
-  get commande() {
+  commande() {
     return this.commandeService.commande;
   }
 
@@ -20,5 +29,9 @@ export class FooterComponent {
 
   removeFromCommande(box: any) {
     this.commandeService.removeItem(box);
+  }
+
+  getTotalPrice(): number {
+    return this.commandeService.getTotalPrice();
   }
 }

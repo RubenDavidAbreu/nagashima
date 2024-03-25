@@ -1,7 +1,127 @@
 #footer {
+  display: block;
+}
+
+.transi{
+  transition:  3s ease-out;
+}
+
+.vflex{
   display: flex;
   align-items: center;
   margin: auto;
+}
+.mrd{
+  text-decoration: none;
+  color: black;
+}
+#boxesActions{
+  display: flex;
+}
+.whiteButton{
+  width: fit-content;
+  border-radius: 10px;
+  text-align: center;
+  max-height: 7vh;
+  margin: 15PX;
+  width: 7vw;
+  padding: 5px 20px 5px 20px;
+  font-size: 2em;
+  font-family: 'Alegreya';
+  cursor: pointer; 
+}
+
+.see{
+  position: relative;
+  display: block;
+  margin: auto;
+  bottom: 2.5vh;
+  height: 5vh;
+  width: 4vw;
+  border-radius: 100%;
+}
+
+.see > img {
+  width: 3vw;
+  height: 3vh;
+  transform: rotate(-90deg);
+}
+
+.total{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 3em;
+  width: 10Vw;
+  color: white;
+}
+
+#ligne1{
+  position: relative;
+  width: 12vw;
+  margin: 0 3vw 0 0;
+  border: solid 0.3vh white;
+  height: 0;
+  top: 4.5vh;
+}
+
+#ligne3{
+  position: relative;
+  width: 100VW;
+  margin: 0 3vw 0 0;
+  border: solid 0.3vh white;
+  height: 0;
+  top: 4.5vh;
+}
+#ligne2{
+  position: relative;
+  width: 35vw;
+  margin: 0 3vw 0 0;
+  border: solid 0.3vh white;
+  height: 0;
+  top: 4.5vh;
+}
+
+.close{
+  display: none;
+
+}
+
+#commandeItemContainer{
+  margin-top: 2VH;
+  margin-bottom: 2VH;
+}
+
+.boxname{
+  font-size: 2.5em;
+  margin-left: 2vw;
+  width: 15vw;
+  color: white;
+}
+
+.commandeItem{
+  display: flex;
+  margin-bottom: 1.5vh ;
+}
+
+.buttonAddContainer{
+  display: flex;
+  margin-left: 3VW;
+  width: 6vw;
+  color: white;
   justify-content: center;
-  
+}
+
+.pdroite{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 55vw;
+  font-size: 3em;
+  color: white;
+}
+
+.chiffre{
+  font-size: 2.5em;
+  color: white;
 }

@@ -1,32 +1,49 @@
 <!-- Commande -->
-<div>
-  <div class="toutcommande">
-          <!-- Boxes réserver -->
-          <div *ngFor="let item of commande.items" class="commandeItem fRow">
-            <div>{{ item.box.name }}</div>
-            <div class="buttonAddContainer lightGreyBorder">
-              <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
-              <div>{{ item.quantity }}</div>
-              <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
-            </div>
-            <div>{{ item.box.price }} € x {{ item.quantity }}</div>
-          </div>
-  </div>
-  <div id="footer">
-    <div id="commandeContainer">
-
-      <!-- Action -->
-      <div id="boxesActions" class="fRow">
-        <a routerLink="/panier"><div class="whiteButton">Payer</div></a>
-        <div
-          class="whiteButton"
-          onclick="toggleClasses('cancelCommand', 'hidden')"
-        >
-          Annuler
-        </div>
-        <div>Total: {{ commande.getTotalPrice() }} €</div>
+<div class="transi">
+  <div class="footer" id="footer">
+    <button class="see cross2" onclick="toggleClasses('commandeItemContainer', 'close', null)">
+      <img class="" src="../../assets/img/right-arrow.png" alt="" srcset="" />
+    </button>
+    <div id="commandeItemContainer" class="close">
+    <div
+      *ngFor="let item of commande().items"
+      class="commandeItem fRow"
+      id="commandeItem"
+    >
+      <div class="boxname">{{ item.box.name }}</div>
+     
+      <div class="buttonAddContainer lightGreyBorder">
+        <div class="buttonAdd" (click)="removeFromCommande(item.box)">-</div>
+        <div class="chiffre">{{ item.quantity }}</div>
+        <div class="buttonAdd" (click)="addToCommande(item.box)">+</div>
       </div>
-      <!-- <div id="panierAction" class="whiteButton hidden" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler la commande</div> -->
+      <div class="pdroite">{{ item.box.price }} € x {{ item.quantity }}</div>
+
+    </div>
+  </div>
+    
+
+    <div class="vflex">
+      <div id="commandeContainer">
+        <!-- Action -->
+        <div id="boxesActions" class="fRow">
+          <hr id="ligne1" />
+          <a class="mrd" routerLink="/panier"
+            ><div class="whiteButton">Payer</div></a
+          >
+          <div
+            class="whiteButton"
+            onclick="toggleClasses('cancelCommand', 'hidden')"
+          >
+            Annuler
+          </div>
+          <hr id="ligne2" />
+          <div class="total">{{ getTotalPrice() }} €</div>
+          <hr id="ligne3" />
+        </div>
+
+        <!-- <div id="panierAction" class="whiteButton hidden" onclick="toggleClasses('cancelCommand', 'hidden')">Annuler la commande</div> -->
+      </div>
     </div>
   </div>
 </div>

@@ -1,18 +1,12 @@
 import { Injectable } from '@angular/core';
+import { DetailsBoxItem } from './details-box-item';
 
 @Injectable({
   providedIn: 'root'
 })
 
-export class DetailsBoxItem {
-  box: any = [];
-  constructor() {
-    this.box = [];
-  }
-} 
-
 export class DetailsBoxService {
-  DetailsBoxItem = new DetailsBoxItem();
+  DetailsBoxItem: DetailsBoxItem = new DetailsBoxItem();
 
   constructor() {}
 

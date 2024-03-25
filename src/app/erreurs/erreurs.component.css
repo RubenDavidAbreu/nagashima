@@ -6,7 +6,8 @@
     transform: translate(-50%, -50%);
     width: 50%;
     height: 20%;
-    background-color: rgba(255, 0, 0, 0.226);
+    background-color: white;
+    border: 0.1em solid black;
 }
 
 .errorButton {
@@ -24,4 +25,13 @@
 
 .redBg {
     background-color: #FF4F4F;
+}
+
+.tred{
+    color: red;
+}
+
+.mid
+{
+    text-align: center;
 }

@@ -1,8 +1,12 @@
   <!-- Message d'erreur -->
   <div id="tooMuchBoxes" class="error" [class.hidden]="!commandeService.commande.tooManyBoxesReached">
     <div class="relative">
+      <div class="mid">
+      <h1 class="tred">Attention !</h1>
+    </div>
       <img class="cross" src="../../assets/img/croix.png" alt="croix" (click)="notTooMany()">
-        Vous ne pouvez pas mettre plus de 10 articles dans votre panier
+      
+              Vous ne pouvez pas mettre plus de 10 articles dans votre panier
       <div class="errorButton blueBg" (click)="notTooMany()"> Retour à ma commande </div>
     </div>
   </div>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { DetailsBoxService, DetailsBoxItem } from '../details-box.service';
+import { DetailsBoxService } from '../details-box.service';
+import { DetailsBoxItem } from '../details-box-item';
 import { CommandeService } from '../commande.service';
 
 @Component({
