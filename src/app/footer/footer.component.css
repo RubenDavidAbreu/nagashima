@@ -11,13 +11,16 @@
   align-items: center;
   margin: auto;
 }
+
 .mrd{
   text-decoration: none;
   color: black;
 }
+
 #boxesActions{
   display: flex;
 }
+
 .whiteButton{
   width: fit-content;
   border-radius: 10px;
@@ -35,15 +38,15 @@
   position: relative;
   display: block;
   margin: auto;
-  bottom: 2.5vh;
-  height: 5vh;
-  width: 4vw;
+  bottom: 5vh;
+  height: 5em;
+  width: 5em;
   border-radius: 100%;
 }
 
 .see > img {
-  width: 3vw;
-  height: 3vh;
+  width: 3em;
+  height: 3em;
   transform: rotate(-90deg);
 }
 
@@ -51,8 +54,9 @@
   display: flex;
   text-align: center;
   align-items: center;
-  font-size: 3em;
-  width: 10Vw;
+  font-size: 2em;
+  width: 5em;
+  padding-bottom: 20px;
   color: white;
 }
 
@@ -73,9 +77,10 @@
   height: 0;
   top: 4.5vh;
 }
+
 #ligne2{
   position: relative;
-  width: 35vw;
+  width: 30%;
   margin: 0 3vw 0 0;
   border: solid 0.3vh white;
   height: 0;
@@ -124,4 +129,109 @@
 .chiffre{
   font-size: 2.5em;
   color: white;
+}
+
+/* Format téléphone S */
+
+@media screen and (max-width: 321px){
+
+}
+
+/* Format téléphone */
+
+@media screen and (max-width: 426px){
+  .pdroite{
+    font-size: 2em;
+  }
+
+  .total{
+    font-size: 1.2em;
+    width: 3.4em;
+    padding-bottom: 0;
+  }
+
+  #ligne1{
+    width: 5vw;
+    margin: 0 3vw 0 0;
+  }
+
+  #ligne2{
+    width: 5vw;
+    margin: 0 3vw 0 0;
+  }
+
+  #ligne3{
+    width: 50VW;
+    margin: 0 3vw 0 0;
+  }
+
+  .whiteButton{
+    max-height: 7vh;
+    margin: 15px 2px 15px 2px;
+    width: 18vw;
+    padding: 2px 8px 2px 8px;
+    font-size: 1em;
+    font-family: 'Alegreya';
+    cursor: pointer; 
+  }
+
+  .boxname{
+    font-size: 1em;
+    padding-right: 2em;
+  }
+
+  .pdroite{
+    font-size: 1em;
+    width: 5em;
+    margin-left: 45vw;
+  }
+
+  .buttonAdd{
+    width: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .chiffre{
+    font-size: 1em;
+  }
+}
+
+/* Format tablette */
+
+@media screen and (min-width: 427px) and (max-width: 769px){
+  .pdroite{
+    font-size: 2em;
+  }
+
+  .total{
+    font-size: 1.5em;
+    width: 3.4em;
+    padding-bottom: 0;
+  }
+
+  #ligne1{
+    width: 10vw;
+    margin: 0 3vw 0 0;
+  }
+
+  #ligne2{
+    width: 10vw;  
+    margin: 0 3vw 0 0;
+  }
+
+  #ligne3{
+    width: 50VW;
+    margin: 0 3vw 0 0;
+  }
+
+  .whiteButton{
+    max-height: 7vh;
+    margin: 15px 2px 15px 2px;
+    width: 18vw;
+    padding: 2px 8px 2px 8px;
+    font-size: 1em;
+    font-family: 'Alegreya';
+    cursor: pointer; 
+  }
 }
