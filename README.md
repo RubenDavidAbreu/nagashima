@@ -1,6 +1,6 @@
 # SAE 401
 
-Bienvenu(e) sur le Readme de notre site. Ici bas vous trouverez tous les livrables qu'on a effectué tout au long de la SAE, qui consistait à créer une borne ou application de commande de sushis. Moi et 3 autres membres du groupe, on s'est divisé les tâches afin d'avoir un environnement de travail dynamique. Ce dépôt concerne la partie Front du site, en appuyANT sur le [lien](https://github.com/RubenDavidAbreu/REST-API), vous serez redirigés vers le dépôt du déveoppement de notre API REST !
+Bienvenu(e) sur le Readme de notre site. Ici bas vous trouverez tous les livrables qu'on a effectué tout au long de la SAE, qui consistait à créer une borne ou application de commande de sushis. Moi et 3 autres membres du groupe, on s'est divisé les tâches afin d'avoir un environnement de travail dynamique. Ce dépôt concerne la partie Front du site, en appuyant sur le [lien](https://github.com/RubenDavidAbreu/REST-API), vous serez redirigés vers le dépôt du déveoppement de notre API REST !
 
 # Les membres de notre groupe !
 
